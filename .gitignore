@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+data/raw/*.jpg
+data/raw/*.png
+data/noisy/*.jpg
+data/noisy/*.png
+results/
+
+# Models (downloaded separately)
+*.pth
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# GOT-OCR2.0 (external repo)
+/GOT-OCR2.0/
+
+# PARSeq (external repo)
+/parseq/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
