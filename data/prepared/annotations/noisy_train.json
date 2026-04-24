@@ -1,0 +1,626 @@
+[
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_104.jpg",
+    "text": "54.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_114.jpg",
+    "text": "10.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_104.jpg",
+    "text": "52.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_90.jpg",
+    "text": "20.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_107.jpg",
+    "text": "33.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_130.jpg",
+    "text": "34.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_120.jpg",
+    "text": "60.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_80.jpg",
+    "text": "34.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_74.jpg",
+    "text": "48.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_81.jpg",
+    "text": "48.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_79.jpg",
+    "text": "32.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_83.jpg",
+    "text": "33.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_127.jpg",
+    "text": "55.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_116.jpg",
+    "text": "19.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_119.jpg",
+    "text": "56.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_86.jpg",
+    "text": "49.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_126.jpg",
+    "text": "48.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_140.jpg",
+    "text": "45.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_94.jpg",
+    "text": "32.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_83.jpg",
+    "text": "34.1"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_115.jpg",
+    "text": "39.2"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_94.jpg",
+    "text": "33.75"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_113.jpg",
+    "text": "31.88"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_79.jpg",
+    "text": "27.1"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_118.jpg",
+    "text": "46.83"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_124.jpg",
+    "text": "60.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_115.jpg",
+    "text": "43.1"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_71.jpg",
+    "text": "56.93"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_71.jpg",
+    "text": "68.73"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_94.jpg",
+    "text": "35.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_85.jpg",
+    "text": "25.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_139.jpg",
+    "text": "44.89"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_114.jpg",
+    "text": "56.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_111.jpg",
+    "text": "36.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_98.jpg",
+    "text": "35.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_97.jpg",
+    "text": "23.54"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_121.jpg",
+    "text": "9.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_135.jpg",
+    "text": "43.39"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_101.jpg",
+    "text": "33.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_81.jpg",
+    "text": "43.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_134.jpg",
+    "text": "23.2"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_89.jpg",
+    "text": "35.15"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_77.jpg",
+    "text": "24.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_117.jpg",
+    "text": "23.55"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_110.jpg",
+    "text": "34.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_81.jpg",
+    "text": "40.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_74.jpg",
+    "text": "43.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_139.jpg",
+    "text": "41.19"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_126.jpg",
+    "text": "55.35"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_72.jpg",
+    "text": "69.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_79.jpg",
+    "text": "29.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_115.jpg",
+    "text": "41.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_138.jpg",
+    "text": "43.09"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_119.jpg",
+    "text": "82.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_72.jpg",
+    "text": "56.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_110.jpg",
+    "text": "37.13"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_80.jpg",
+    "text": "34.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_111.jpg",
+    "text": "38.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_122.jpg",
+    "text": "40.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_122.jpg",
+    "text": "43.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_132.jpg",
+    "text": "22.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_89.jpg",
+    "text": "39.25"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_112.jpg",
+    "text": "54.74"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_134.jpg",
+    "text": "24.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_138.jpg",
+    "text": "43.99"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_92.jpg",
+    "text": "43.65"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_125.jpg",
+    "text": "65.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_90.jpg",
+    "text": "18.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_84.jpg",
+    "text": "29.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_118.jpg",
+    "text": "55.78"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_83.jpg",
+    "text": "32.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_110.jpg",
+    "text": "40.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_77.jpg",
+    "text": "24.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_123.jpg",
+    "text": "50.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_122.jpg",
+    "text": "50.45"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_95.jpg",
+    "text": "60.92"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_83.jpg",
+    "text": "29.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_129.jpg",
+    "text": "73.73"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_85.jpg",
+    "text": "26.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_99.jpg",
+    "text": "67.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_124.jpg",
+    "text": "70.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_84.jpg",
+    "text": "27.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_117.jpg",
+    "text": "21.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_119.jpg",
+    "text": "72.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_71.jpg",
+    "text": "71.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_103.jpg",
+    "text": "29.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_86.jpg",
+    "text": "53.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_113.jpg",
+    "text": "34.48"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_137.jpg",
+    "text": "81.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_125.jpg",
+    "text": "81.63"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_136.jpg",
+    "text": "41.1"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_85.jpg",
+    "text": "24.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_95.jpg",
+    "text": "53.75"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_81.jpg",
+    "text": "44.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_73.jpg",
+    "text": "28.2"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_105.jpg",
+    "text": "27.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_98.jpg",
+    "text": "32.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_96.jpg",
+    "text": "20.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_133.jpg",
+    "text": "23.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_135.jpg",
+    "text": "40.59"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_98.jpg",
+    "text": "33.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_73.jpg",
+    "text": "29.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_74.jpg",
+    "text": "41.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_88.jpg",
+    "text": "41.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_132.jpg",
+    "text": "19.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_112.jpg",
+    "text": "66.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_75.jpg",
+    "text": "65.56"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_123.jpg",
+    "text": "49.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_92.jpg",
+    "text": "45.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_132.jpg",
+    "text": "24.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_113.jpg",
+    "text": "33.8"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_129.jpg",
+    "text": "55.55"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_135.jpg",
+    "text": "44.59"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_89.jpg",
+    "text": "33.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_87.jpg",
+    "text": "40.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_104.jpg",
+    "text": "47.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_86.jpg",
+    "text": "46.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_126.jpg",
+    "text": "47.2"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_139.jpg",
+    "text": "41.69"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_132.jpg",
+    "text": "27.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_124.jpg",
+    "text": "66.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_88.jpg",
+    "text": "41.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_85.jpg",
+    "text": "27.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_97.jpg",
+    "text": "65.56"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_77.jpg",
+    "text": "23.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_88.jpg",
+    "text": "39.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_121.jpg",
+    "text": "31.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_138.jpg",
+    "text": "50.29"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_130.jpg",
+    "text": "29.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_131.jpg",
+    "text": "60.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_112.jpg",
+    "text": "59.14"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_82.jpg",
+    "text": "21.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_120.jpg",
+    "text": "70.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_137.jpg",
+    "text": "90.7"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_71.jpg",
+    "text": "63.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_86.jpg",
+    "text": "60.25"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_118.jpg",
+    "text": "49.55"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_112.jpg",
+    "text": "78.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_119.jpg",
+    "text": "52.6"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_102.jpg",
+    "text": "24.95"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_101.jpg",
+    "text": "36.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_107.jpg",
+    "text": "32.75"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_97.jpg",
+    "text": "23.78"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_134.jpg",
+    "text": "23.1"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_93.jpg",
+    "text": "43.5"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_137.jpg",
+    "text": "73.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_108.jpg",
+    "text": "38.62"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_140.jpg",
+    "text": "45.95"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_76.jpg",
+    "text": "17.52"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_130.jpg",
+    "text": "32.4"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_92.jpg",
+    "text": "46.85"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_103.jpg",
+    "text": "25.9"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_75.jpg",
+    "text": "23.54"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_99.jpg",
+    "text": "51.0"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_127.jpg",
+    "text": "59.3"
+  },
+  {
+    "file": "../data/prepared/noisy_prepare\\stele_102.jpg",
+    "text": "27.75"
+  }
+]
