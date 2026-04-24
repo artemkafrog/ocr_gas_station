@@ -1,0 +1,1345 @@
+filename,fuel_type,expected,predicted,correct,cer
+stele_71.jpg,price_92,56.93,"system
+You are a helpful assistant.
+user
+
+assistant
+88,73 89,40 89,65 89,82 89,91 89,99 90,08 90,17 90,26 90,35 90,44 90,53 90,62 90,71 90,80 90,89 90,98 91,07 91,16 91,25 91,34 91",0.0,35.2
+stele_71.jpg,price_95,63.0,"system
+You are a helpful assistant.
+user
+
+assistant
+88,73 89,40 89,65 89,82 89,91 89,99 90,08 90,17 90,26 90,35 90,44 90,53 90,62 90,71 90,80 90,89 90,98 91,07 91,16 91,25 91,34 91",0.0,44.25
+stele_71.jpg,price_98,68.73,"system
+You are a helpful assistant.
+user
+
+assistant
+88,73 89,40 89,65 89,82 89,91 89,99 90,08 90,17 90,26 90,35 90,44 90,53 90,62 90,71 90,80 90,89 90,98 91,07 91,16 91,25 91,34 91",0.0,35.2
+stele_71.jpg,price_DT,71.6,"system
+You are a helpful assistant.
+user
+
+assistant
+88,73 89,40 89,65 89,82 89,91 89,99 90,08 90,17 90,26 90,35 90,44 90,53 90,62 90,71 90,80 90,89 90,98 91,07 91,16 91,25 91,34 91",0.0,44.25
+stele_72.jpg,price_92,56.9,"system
+You are a helpful assistant.
+user
+
+assistant
+9,50 9,70 10,00",0.0,16.25
+stele_72.jpg,price_95,60.9,"system
+You are a helpful assistant.
+user
+
+assistant
+9,50 9,70 10,00",0.0,16.25
+stele_72.jpg,price_DT,69.5,"system
+You are a helpful assistant.
+user
+
+assistant
+9,50 9,70 10,00",0.0,16.25
+stele_73.jpg,price_92,28.2,"system
+You are a helpful assistant.
+user
+
+assistant
+95 97 98 100 102 104 106 108 110 112 114 116 118 120 122 124 126 128 130 132 134 136 138 140 142 144 146 148 150 152 154 156 158",0.0,44.25
+stele_73.jpg,price_95,29.9,"system
+You are a helpful assistant.
+user
+
+assistant
+95 97 98 100 102 104 106 108 110 112 114 116 118 120 122 124 126 128 130 132 134 136 138 140 142 144 146 148 150 152 154 156 158",0.0,44.5
+stele_73.jpg,price_DT,25.9,"system
+You are a helpful assistant.
+user
+
+assistant
+95 97 98 100 102 104 106 108 110 112 114 116 118 120 122 124 126 128 130 132 134 136 138 140 142 144 146 148 150 152 154 156 158",0.0,44.5
+stele_74.jpg,price_92,41.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,55 3,6",0.0,44.25
+stele_74.jpg,price_95,43.6,"system
+You are a helpful assistant.
+user
+
+assistant
+2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,55 3,6",0.0,44.25
+stele_74.jpg,price_98,48.5,"system
+You are a helpful assistant.
+user
+
+assistant
+2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,55 3,6",0.0,44.25
+stele_74.jpg,price_DT,41.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,55 3,6",0.0,44.25
+stele_75.jpg,price_92,23.54,"system
+You are a helpful assistant.
+user
+
+assistant
+23.79 24.89 26.18 27.54 28.12 29.54 30.56",0.0,17.6
+stele_75.jpg,price_95,12.78,"system
+You are a helpful assistant.
+user
+
+assistant
+23.79 24.89 26.18 27.54 28.12 29.54 30.56",0.0,17.8
+stele_75.jpg,price_98,23.78,"system
+You are a helpful assistant.
+user
+
+assistant
+23.79 24.89 26.18 27.54 28.12 29.54 30.56",0.0,17.6
+stele_75.jpg,price_DT,65.56,"system
+You are a helpful assistant.
+user
+
+assistant
+23.79 24.89 26.18 27.54 28.12 29.54 30.56",0.0,17.6
+stele_76.jpg,price_92,20.5,"system
+You are a helpful assistant.
+user
+
+assistant
+95 22.00 92 20.50 AN 18.65 AN 17.52 LPG 12.77",1.0,23.25
+stele_76.jpg,price_95,22.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 22.00 92 20.50 AN 18.65 AN 17.52 LPG 12.77",1.0,23.25
+stele_76.jpg,price_DT,17.52,"system
+You are a helpful assistant.
+user
+
+assistant
+95 22.00 92 20.50 AN 18.65 AN 17.52 LPG 12.77",1.0,18.4
+stele_77.jpg,price_92,23.0,"system
+You are a helpful assistant.
+user
+
+assistant
+7.50 7.60 7.80 7.90",0.0,17.25
+stele_77.jpg,price_95,24.0,"system
+You are a helpful assistant.
+user
+
+assistant
+7.50 7.60 7.80 7.90",0.0,17.25
+stele_77.jpg,price_DT,24.0,"system
+You are a helpful assistant.
+user
+
+assistant
+7.50 7.60 7.80 7.90",0.0,17.25
+stele_78.jpg,price_92,27.6,"system
+You are a helpful assistant.
+user
+
+assistant
+10 20 30 40 50",0.0,16.25
+stele_78.jpg,price_DT,33.0,"system
+You are a helpful assistant.
+user
+
+assistant
+10 20 30 40 50",0.0,16.0
+stele_79.jpg,price_92,27.1,"system
+You are a helpful assistant.
+user
+
+assistant
+32,90 32,95 32,98 32,99 33,00 33,01 33,02 33,03",0.0,24.25
+stele_79.jpg,price_95,29.0,"system
+You are a helpful assistant.
+user
+
+assistant
+32,90 32,95 32,98 32,99 33,00 33,01 33,02 33,03",0.0,24.0
+stele_79.jpg,price_98,32.0,"system
+You are a helpful assistant.
+user
+
+assistant
+32,90 32,95 32,98 32,99 33,00 33,01 33,02 33,03",0.0,24.0
+stele_79.jpg,price_DT,28.3,"system
+You are a helpful assistant.
+user
+
+assistant
+32,90 32,95 32,98 32,99 33,00 33,01 33,02 33,03",0.0,24.0
+stele_80.jpg,price_92,31.9,"system
+You are a helpful assistant.
+user
+
+assistant
+3.10 3.19 3.49",0.0,15.5
+stele_80.jpg,price_95,34.8,"system
+You are a helpful assistant.
+user
+
+assistant
+3.10 3.19 3.49",0.0,16.0
+stele_80.jpg,price_DT,34.9,"system
+You are a helpful assistant.
+user
+
+assistant
+3.10 3.19 3.49",0.0,15.75
+stele_81.jpg,price_92,40.7,"system
+You are a helpful assistant.
+user
+
+assistant
+98.00 44.30 79.20 45.50 43.50 63.50",0.0,21.0
+stele_81.jpg,price_95,44.3,"system
+You are a helpful assistant.
+user
+
+assistant
+98.00 44.30 79.20 45.50 43.50 63.50",1.0,20.75
+stele_81.jpg,price_98,48.0,"system
+You are a helpful assistant.
+user
+
+assistant
+98.00 44.30 79.20 45.50 43.50 63.50",0.0,21.0
+stele_81.jpg,price_DT,43.5,"system
+You are a helpful assistant.
+user
+
+assistant
+98.00 44.30 79.20 45.50 43.50 63.50",1.0,20.75
+stele_82.jpg,price_92,21.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 90 87 84",0.0,16.0
+stele_82.jpg,price_DT,16.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 90 87 84",0.0,16.0
+stele_83.jpg,price_92,29.0,"system
+You are a helpful assistant.
+user
+
+assistant
+21.50 34.10 32.60 29.00 33.60 28.80",1.0,20.75
+stele_83.jpg,price_95,32.6,"system
+You are a helpful assistant.
+user
+
+assistant
+21.50 34.10 32.60 29.00 33.60 28.80",1.0,20.75
+stele_83.jpg,price_98,34.1,"system
+You are a helpful assistant.
+user
+
+assistant
+21.50 34.10 32.60 29.00 33.60 28.80",1.0,20.75
+stele_83.jpg,price_DT,33.6,"system
+You are a helpful assistant.
+user
+
+assistant
+21.50 34.10 32.60 29.00 33.60 28.80",1.0,20.75
+stele_84.jpg,price_92,27.5,"system
+You are a helpful assistant.
+user
+
+assistant
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67",0.0,44.25
+stele_84.jpg,price_95,29.5,"system
+You are a helpful assistant.
+user
+
+assistant
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67",0.0,44.25
+stele_84.jpg,price_DT,29.0,"system
+You are a helpful assistant.
+user
+
+assistant
+25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67",0.0,44.25
+stele_85.jpg,price_92,25.9,"system
+You are a helpful assistant.
+user
+
+assistant
+8,49 8,56 8,63 8,70 8,77 8,84 8,91 8,98 9,05 9,12 9,19 9,26 9,33 9,40 9,47 9,54 9,61 9,68 9,75 9,82 9,89 9,96 10,03 10,10 10,17",0.0,44.0
+stele_85.jpg,price_95,26.9,"system
+You are a helpful assistant.
+user
+
+assistant
+8,49 8,56 8,63 8,70 8,77 8,84 8,91 8,98 9,05 9,12 9,19 9,26 9,33 9,40 9,47 9,54 9,61 9,68 9,75 9,82 9,89 9,96 10,03 10,10 10,17",0.0,44.0
+stele_85.jpg,price_98,27.7,"system
+You are a helpful assistant.
+user
+
+assistant
+8,49 8,56 8,63 8,70 8,77 8,84 8,91 8,98 9,05 9,12 9,19 9,26 9,33 9,40 9,47 9,54 9,61 9,68 9,75 9,82 9,89 9,96 10,03 10,10 10,17",0.0,44.0
+stele_85.jpg,price_DT,24.5,"system
+You are a helpful assistant.
+user
+
+assistant
+8,49 8,56 8,63 8,70 8,77 8,84 8,91 8,98 9,05 9,12 9,19 9,26 9,33 9,40 9,47 9,54 9,61 9,68 9,75 9,82 9,89 9,96 10,03 10,10 10,17",0.0,44.0
+stele_86.jpg,price_92,46.3,"system
+You are a helpful assistant.
+user
+
+assistant
+60.25 99.90 146.30 53.00",1.0,18.0
+stele_86.jpg,price_95,49.9,"system
+You are a helpful assistant.
+user
+
+assistant
+60.25 99.90 146.30 53.00",0.0,18.25
+stele_86.jpg,price_98,60.25,"system
+You are a helpful assistant.
+user
+
+assistant
+60.25 99.90 146.30 53.00",1.0,14.2
+stele_86.jpg,price_DT,53.0,"system
+You are a helpful assistant.
+user
+
+assistant
+60.25 99.90 146.30 53.00",1.0,18.0
+stele_87.jpg,price_92,40.4,"system
+You are a helpful assistant.
+user
+
+assistant
+40.40 43.50 43.00 22.00",1.0,17.75
+stele_87.jpg,price_95,43.5,"system
+You are a helpful assistant.
+user
+
+assistant
+40.40 43.50 43.00 22.00",1.0,17.75
+stele_87.jpg,price_DT,43.0,"system
+You are a helpful assistant.
+user
+
+assistant
+40.40 43.50 43.00 22.00",1.0,17.75
+stele_88.jpg,price_92,39.5,"system
+You are a helpful assistant.
+user
+
+assistant
+95 41 38 20 97 49 60 97 49 60",0.0,19.75
+stele_88.jpg,price_95,41.5,"system
+You are a helpful assistant.
+user
+
+assistant
+95 41 38 20 97 49 60 97 49 60",0.0,19.75
+stele_88.jpg,price_DT,41.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 41 38 20 97 49 60 97 49 60",0.0,19.5
+stele_89.jpg,price_92,32.25,"system
+You are a helpful assistant.
+user
+
+assistant
+38.25 36.25 35.15 32.25",1.0,14.0
+stele_89.jpg,price_95,35.15,"system
+You are a helpful assistant.
+user
+
+assistant
+38.25 36.25 35.15 32.25",1.0,14.0
+stele_89.jpg,price_98,39.25,"system
+You are a helpful assistant.
+user
+
+assistant
+38.25 36.25 35.15 32.25",0.0,14.2
+stele_89.jpg,price_DT,33.9,"system
+You are a helpful assistant.
+user
+
+assistant
+38.25 36.25 35.15 32.25",0.0,18.0
+stele_90.jpg,price_92,18.5,"system
+You are a helpful assistant.
+user
+
+assistant
+125,0 124,5 124,0 123,5 123,0 122,5 122,0 121,5 121,0 120,5 120,0 119,5 119,0 118,5 118,0 117,5 117,0 116,5 116,0 115,5 115,0 11",0.0,44.25
+stele_90.jpg,price_95,20.3,"system
+You are a helpful assistant.
+user
+
+assistant
+125,0 124,5 124,0 123,5 123,0 122,5 122,0 121,5 121,0 120,5 120,0 119,5 119,0 118,5 118,0 117,5 117,0 116,5 116,0 115,5 115,0 11",0.0,44.25
+stele_90.jpg,price_98,24.6,"system
+You are a helpful assistant.
+user
+
+assistant
+125,0 124,5 124,0 123,5 123,0 122,5 122,0 121,5 121,0 120,5 120,0 119,5 119,0 118,5 118,0 117,5 117,0 116,5 116,0 115,5 115,0 11",0.0,44.25
+stele_90.jpg,price_DT,19.4,"system
+You are a helpful assistant.
+user
+
+assistant
+125,0 124,5 124,0 123,5 123,0 122,5 122,0 121,5 121,0 120,5 120,0 119,5 119,0 118,5 118,0 117,5 117,0 116,5 116,0 115,5 115,0 11",0.0,44.5
+stele_91.jpg,price_92,19.99,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,35.2
+stele_91.jpg,price_95,20.99,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,35.2
+stele_92.jpg,price_92,43.65,"system
+You are a helpful assistant.
+user
+
+assistant
+9,65 10,25 10,85 11,50 12,00 12,40",0.0,16.6
+stele_92.jpg,price_95,46.85,"system
+You are a helpful assistant.
+user
+
+assistant
+9,65 10,25 10,85 11,50 12,00 12,40",0.0,16.6
+stele_92.jpg,price_DT,45.0,"system
+You are a helpful assistant.
+user
+
+assistant
+9,65 10,25 10,85 11,50 12,00 12,40",0.0,21.0
+stele_93.jpg,price_92,40.7,"system
+You are a helpful assistant.
+user
+
+assistant
+100 104 108 112 116 120",0.0,18.25
+stele_93.jpg,price_95,43.5,"system
+You are a helpful assistant.
+user
+
+assistant
+100 104 108 112 116 120",0.0,18.5
+stele_93.jpg,price_DT,50.0,"system
+You are a helpful assistant.
+user
+
+assistant
+100 104 108 112 116 120",0.0,18.25
+stele_94.jpg,price_92,32.8,"system
+You are a helpful assistant.
+user
+
+assistant
+97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97",0.0,44.75
+stele_94.jpg,price_95,35.0,"system
+You are a helpful assistant.
+user
+
+assistant
+97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97",0.0,44.75
+stele_94.jpg,price_DT,33.75,"system
+You are a helpful assistant.
+user
+
+assistant
+97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97 97",0.0,35.6
+stele_95.jpg,price_92,49.03,"system
+You are a helpful assistant.
+user
+
+assistant
+5.00 4.93 5.13 5.27 5.49 5.79",0.0,15.4
+stele_95.jpg,price_95,53.75,"system
+You are a helpful assistant.
+user
+
+assistant
+5.00 4.93 5.13 5.27 5.49 5.79",0.0,15.2
+stele_95.jpg,price_DT,60.92,"system
+You are a helpful assistant.
+user
+
+assistant
+5.00 4.93 5.13 5.27 5.49 5.79",0.0,15.4
+stele_96.jpg,price_92,17.6,"system
+You are a helpful assistant.
+user
+
+assistant
+10 20 30 40 50",0.0,16.25
+stele_96.jpg,price_95,20.5,"system
+You are a helpful assistant.
+user
+
+assistant
+10 20 30 40 50",0.0,15.75
+stele_96.jpg,price_DT,19.1,"system
+You are a helpful assistant.
+user
+
+assistant
+10 20 30 40 50",0.0,16.0
+stele_97.jpg,price_92,23.54,"system
+You are a helpful assistant.
+user
+
+assistant
+0,84 0,93 0,95 0,97 1,02 1,05 1,06 1,07 1,08 1,09 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,2",0.0,35.2
+stele_97.jpg,price_95,12.78,"system
+You are a helpful assistant.
+user
+
+assistant
+0,84 0,93 0,95 0,97 1,02 1,05 1,06 1,07 1,08 1,09 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,2",0.0,35.2
+stele_97.jpg,price_98,23.78,"system
+You are a helpful assistant.
+user
+
+assistant
+0,84 0,93 0,95 0,97 1,02 1,05 1,06 1,07 1,08 1,09 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,2",0.0,35.2
+stele_97.jpg,price_DT,65.56,"system
+You are a helpful assistant.
+user
+
+assistant
+0,84 0,93 0,95 0,97 1,02 1,05 1,06 1,07 1,08 1,09 1,10 1,11 1,12 1,13 1,14 1,15 1,16 1,17 1,18 1,19 1,20 1,21 1,22 1,23 1,24 1,2",0.0,35.4
+stele_98.jpg,price_92,33.0,"system
+You are a helpful assistant.
+user
+
+assistant
+35,60 39,50 42,50 45,50 48,50 51,50 54,50 57,50 60,50 63,50 66,50 69,50 72,50 75,50 78,50 81,50 84,50 87,50 90,50 93,50 96,50 99",0.0,44.25
+stele_98.jpg,price_95,35.7,"system
+You are a helpful assistant.
+user
+
+assistant
+35,60 39,50 42,50 45,50 48,50 51,50 54,50 57,50 60,50 63,50 66,50 69,50 72,50 75,50 78,50 81,50 84,50 87,50 90,50 93,50 96,50 99",0.0,44.25
+stele_98.jpg,price_DT,32.5,"system
+You are a helpful assistant.
+user
+
+assistant
+35,60 39,50 42,50 45,50 48,50 51,50 54,50 57,50 60,50 63,50 66,50 69,50 72,50 75,50 78,50 81,50 84,50 87,50 90,50 93,50 96,50 99",0.0,44.25
+stele_99.jpg,price_92,51.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,19 2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,5",0.0,44.25
+stele_99.jpg,price_95,54.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,19 2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,5",0.0,44.25
+stele_99.jpg,price_DT,67.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,19 2,35 2,40 2,45 2,50 2,55 2,60 2,65 2,70 2,75 2,80 2,85 2,90 2,95 3,00 3,05 3,10 3,15 3,20 3,25 3,30 3,35 3,40 3,45 3,50 3,5",0.0,44.25
+stele_100.jpg,price_92,40.0,"system
+You are a helpful assistant.
+user
+
+assistant
+0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340",0.0,44.25
+stele_100.jpg,price_95,42.6,"system
+You are a helpful assistant.
+user
+
+assistant
+0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340",0.0,44.25
+stele_100.jpg,price_DT,40.0,"system
+You are a helpful assistant.
+user
+
+assistant
+0 10 20 30 40 50 60 70 80 90 100 110 120 130 140 150 160 170 180 190 200 210 220 230 240 250 260 270 280 290 300 310 320 330 340",0.0,44.25
+stele_101.jpg,price_92,33.6,"system
+You are a helpful assistant.
+user
+
+assistant
+10, 12, 14, 16, 18, 20",0.0,18.0
+stele_101.jpg,price_95,36.9,"system
+You are a helpful assistant.
+user
+
+assistant
+10, 12, 14, 16, 18, 20",0.0,18.25
+stele_101.jpg,price_DT,34.5,"system
+You are a helpful assistant.
+user
+
+assistant
+10, 12, 14, 16, 18, 20",0.0,18.25
+stele_102.jpg,price_92,26.35,"system
+You are a helpful assistant.
+user
+
+assistant
+27.15 0.00 26.35 24.95",1.0,13.8
+stele_102.jpg,price_95,27.75,"system
+You are a helpful assistant.
+user
+
+assistant
+27.15 0.00 26.35 24.95",0.0,14.0
+stele_102.jpg,price_DT,24.95,"system
+You are a helpful assistant.
+user
+
+assistant
+27.15 0.00 26.35 24.95",1.0,13.8
+stele_103.jpg,price_92,28.2,"system
+You are a helpful assistant.
+user
+
+assistant
+29.90 26.20 25.90",0.0,16.5
+stele_103.jpg,price_95,29.9,"system
+You are a helpful assistant.
+user
+
+assistant
+29.90 26.20 25.90",1.0,16.25
+stele_103.jpg,price_DT,25.9,"system
+You are a helpful assistant.
+user
+
+assistant
+29.90 26.20 25.90",1.0,16.25
+stele_104.jpg,price_92,47.6,"system
+You are a helpful assistant.
+user
+
+assistant
+97,60 52,40 53,40 81,50 84,00",0.0,19.75
+stele_104.jpg,price_95,52.4,"system
+You are a helpful assistant.
+user
+
+assistant
+97,60 52,40 53,40 81,50 84,00",0.0,19.5
+stele_104.jpg,price_DT,54.0,"system
+You are a helpful assistant.
+user
+
+assistant
+97,60 52,40 53,40 81,50 84,00",0.0,19.5
+stele_105.jpg,price_92,27.6,"system
+You are a helpful assistant.
+user
+
+assistant
+27.60 26.00 33.00",1.0,16.25
+stele_105.jpg,price_DT,33.0,"system
+You are a helpful assistant.
+user
+
+assistant
+27.60 26.00 33.00",1.0,16.25
+stele_106.jpg,price_92,52.2,"system
+You are a helpful assistant.
+user
+
+assistant
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10",0.0,19.75
+stele_106.jpg,price_95,56.2,"system
+You are a helpful assistant.
+user
+
+assistant
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10",0.0,19.75
+stele_106.jpg,price_DT,63.0,"system
+You are a helpful assistant.
+user
+
+assistant
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10",0.0,19.75
+stele_107.jpg,price_92,29.8,"system
+You are a helpful assistant.
+user
+
+assistant
+32.75 33.25 32.98 33.40",0.0,18.0
+stele_107.jpg,price_95,32.75,"system
+You are a helpful assistant.
+user
+
+assistant
+32.75 33.25 32.98 33.40",1.0,14.0
+stele_107.jpg,price_98,33.25,"system
+You are a helpful assistant.
+user
+
+assistant
+32.75 33.25 32.98 33.40",1.0,14.0
+stele_107.jpg,price_DT,33.4,"system
+You are a helpful assistant.
+user
+
+assistant
+32.75 33.25 32.98 33.40",1.0,17.75
+stele_108.jpg,price_92,37.9,"system
+You are a helpful assistant.
+user
+
+assistant
+-1,50 - 1,60 - 1,70 - 1,80 - 1,90 - 2,00 - 2,10 - 2,20 - 2,30 - 2,40 - 2,50 - 2,60 - 2,70 - 2,80 - 2,90 - 3,00 - 3,10 - 3,20 - 3,30 - 3,40 - 3,50 - 3",0.0,49.5
+stele_108.jpg,price_95,41.2,"system
+You are a helpful assistant.
+user
+
+assistant
+-1,50 - 1,60 - 1,70 - 1,80 - 1,90 - 2,00 - 2,10 - 2,20 - 2,30 - 2,40 - 2,50 - 2,60 - 2,70 - 2,80 - 2,90 - 3,00 - 3,10 - 3,20 - 3,30 - 3,40 - 3,50 - 3",0.0,49.5
+stele_108.jpg,price_DT,38.62,"system
+You are a helpful assistant.
+user
+
+assistant
+-1,50 - 1,60 - 1,70 - 1,80 - 1,90 - 2,00 - 2,10 - 2,20 - 2,30 - 2,40 - 2,50 - 2,60 - 2,70 - 2,80 - 2,90 - 3,00 - 3,10 - 3,20 - 3,30 - 3,40 - 3,50 - 3",0.0,39.6
+stele_110.jpg,price_92,37.13,"system
+You are a helpful assistant.
+user
+
+assistant
+21,50 27,10 18,90 13,60 9,30",0.0,15.4
+stele_110.jpg,price_95,40.3,"system
+You are a helpful assistant.
+user
+
+assistant
+21,50 27,10 18,90 13,60 9,30",0.0,19.5
+stele_110.jpg,price_DT,34.9,"system
+You are a helpful assistant.
+user
+
+assistant
+21,50 27,10 18,90 13,60 9,30",0.0,19.5
+stele_111.jpg,price_92,36.3,"system
+You are a helpful assistant.
+user
+
+assistant
+38.90 38.70 38.60 38.40",0.0,18.0
+stele_111.jpg,price_95,38.8,"system
+You are a helpful assistant.
+user
+
+assistant
+38.90 38.70 38.60 38.40",0.0,17.75
+stele_111.jpg,price_DT,38.6,"system
+You are a helpful assistant.
+user
+
+assistant
+38.90 38.70 38.60 38.40",1.0,17.75
+stele_112.jpg,price_92,54.74,"system
+You are a helpful assistant.
+user
+
+assistant
+95.74 96.90 98.50 99.50",0.0,14.4
+stele_112.jpg,price_95,59.14,"system
+You are a helpful assistant.
+user
+
+assistant
+95.74 96.90 98.50 99.50",0.0,14.4
+stele_112.jpg,price_98,78.9,"system
+You are a helpful assistant.
+user
+
+assistant
+95.74 96.90 98.50 99.50",0.0,17.75
+stele_112.jpg,price_DT,66.5,"system
+You are a helpful assistant.
+user
+
+assistant
+95.74 96.90 98.50 99.50",0.0,18.0
+stele_113.jpg,price_92,31.88,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 91 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11",0.0,35.4
+stele_113.jpg,price_95,34.48,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 91 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11",0.0,35.4
+stele_113.jpg,price_DT,33.8,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 91 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11",0.0,44.5
+stele_114.jpg,price_92,56.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 90",0.0,14.5
+stele_114.jpg,price_95,10.0,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 90",0.0,14.5
+stele_115.jpg,price_92,39.2,"system
+You are a helpful assistant.
+user
+
+assistant
+39.79 41.60 41.18 45.20",0.0,17.75
+stele_115.jpg,price_95,41.8,"system
+You are a helpful assistant.
+user
+
+assistant
+39.79 41.60 41.18 45.20",0.0,17.75
+stele_115.jpg,price_98,43.1,"system
+You are a helpful assistant.
+user
+
+assistant
+39.79 41.60 41.18 45.20",0.0,18.0
+stele_115.jpg,price_DT,45.2,"system
+You are a helpful assistant.
+user
+
+assistant
+39.79 41.60 41.18 45.20",1.0,17.75
+stele_116.jpg,price_92,15.0,"system
+You are a helpful assistant.
+user
+
+assistant
+5,00 5,00 4,00 3,00 0,00",0.0,18.5
+stele_116.jpg,price_95,19.0,"system
+You are a helpful assistant.
+user
+
+assistant
+5,00 5,00 4,00 3,00 0,00",0.0,18.5
+stele_116.jpg,price_DT,19.0,"system
+You are a helpful assistant.
+user
+
+assistant
+5,00 5,00 4,00 3,00 0,00",0.0,18.5
+stele_117.jpg,price_92,20.4,"system
+You are a helpful assistant.
+user
+
+assistant
+23.55 20.90 21.40 21.40 23.55",0.0,19.25
+stele_117.jpg,price_95,21.4,"system
+You are a helpful assistant.
+user
+
+assistant
+23.55 20.90 21.40 21.40 23.55",1.0,19.25
+stele_117.jpg,price_98,23.55,"system
+You are a helpful assistant.
+user
+
+assistant
+23.55 20.90 21.40 21.40 23.55",1.0,15.2
+stele_117.jpg,price_DT,23.55,"system
+You are a helpful assistant.
+user
+
+assistant
+23.55 20.90 21.40 21.40 23.55",1.0,15.2
+stele_118.jpg,price_92,46.83,"system
+You are a helpful assistant.
+user
+
+assistant
+85.79 86.35 86.55",0.0,13.2
+stele_118.jpg,price_95,49.55,"system
+You are a helpful assistant.
+user
+
+assistant
+85.79 86.35 86.55",0.0,13.0
+stele_118.jpg,price_DT,55.78,"system
+You are a helpful assistant.
+user
+
+assistant
+85.79 86.35 86.55",0.0,13.0
+stele_119.jpg,price_92,52.6,"system
+You are a helpful assistant.
+user
+
+assistant
+1,25 1,30 1,35 1,40 1,45 1,50 1,55 1,60 1,65 1,70 1,75 1,80 1,85 1,90 1,95 2,00 2,05 2,10 2,15 2,20 2,25 2,30 2,35 2,40 2,45 2,5",0.0,44.5
+stele_119.jpg,price_95,56.4,"system
+You are a helpful assistant.
+user
+
+assistant
+1,25 1,30 1,35 1,40 1,45 1,50 1,55 1,60 1,65 1,70 1,75 1,80 1,85 1,90 1,95 2,00 2,05 2,10 2,15 2,20 2,25 2,30 2,35 2,40 2,45 2,5",0.0,44.25
+stele_119.jpg,price_98,82.0,"system
+You are a helpful assistant.
+user
+
+assistant
+1,25 1,30 1,35 1,40 1,45 1,50 1,55 1,60 1,65 1,70 1,75 1,80 1,85 1,90 1,95 2,00 2,05 2,10 2,15 2,20 2,25 2,30 2,35 2,40 2,45 2,5",0.0,44.25
+stele_119.jpg,price_DT,72.0,"system
+You are a helpful assistant.
+user
+
+assistant
+1,25 1,30 1,35 1,40 1,45 1,50 1,55 1,60 1,65 1,70 1,75 1,80 1,85 1,90 1,95 2,00 2,05 2,10 2,15 2,20 2,25 2,30 2,35 2,40 2,45 2,5",0.0,44.25
+stele_120.jpg,price_92,60.7,"system
+You are a helpful assistant.
+user
+
+assistant
+0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.05 2.10 2.15 2.2",0.0,44.0
+stele_120.jpg,price_95,69.3,"system
+You are a helpful assistant.
+user
+
+assistant
+0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.05 2.10 2.15 2.2",0.0,44.25
+stele_120.jpg,price_DT,70.6,"system
+You are a helpful assistant.
+user
+
+assistant
+0.95 1.00 1.05 1.10 1.15 1.20 1.25 1.30 1.35 1.40 1.45 1.50 1.55 1.60 1.65 1.70 1.75 1.80 1.85 1.90 1.95 2.00 2.05 2.10 2.15 2.2",0.0,44.25
+stele_121.jpg,price_92,9.5,"system
+You are a helpful assistant.
+user
+
+assistant
+09:50 30.00 2.50 13:49",0.0,23.666666666666668
+stele_121.jpg,price_95,32.5,"system
+You are a helpful assistant.
+user
+
+assistant
+09:50 30.00 2.50 13:49",0.0,17.5
+stele_121.jpg,price_DT,31.9,"system
+You are a helpful assistant.
+user
+
+assistant
+09:50 30.00 2.50 13:49",0.0,17.75
+stele_122.jpg,price_92,40.9,"system
+You are a helpful assistant.
+user
+
+assistant
+50.35 93.30 80.15 90.45",0.0,18.0
+stele_122.jpg,price_95,43.3,"system
+You are a helpful assistant.
+user
+
+assistant
+50.35 93.30 80.15 90.45",0.0,18.0
+stele_122.jpg,price_DT,50.45,"system
+You are a helpful assistant.
+user
+
+assistant
+50.35 93.30 80.15 90.45",0.0,14.0
+stele_123.jpg,price_92,43.8,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 101 104 107 110 113 116 119 122 125 128 131 134 137 140 143 146 149 152 155 158 161 164 167 170 173 176 179 182 185 188",0.0,44.25
+stele_123.jpg,price_95,45.35,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 101 104 107 110 113 116 119 122 125 128 131 134 137 140 143 146 149 152 155 158 161 164 167 170 173 176 179 182 185 188",0.0,35.2
+stele_123.jpg,price_98,49.4,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 101 104 107 110 113 116 119 122 125 128 131 134 137 140 143 146 149 152 155 158 161 164 167 170 173 176 179 182 185 188",0.0,44.25
+stele_123.jpg,price_DT,50.7,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 101 104 107 110 113 116 119 122 125 128 131 134 137 140 143 146 149 152 155 158 161 164 167 170 173 176 179 182 185 188",0.0,44.25
+stele_124.jpg,price_92,60.7,"system
+You are a helpful assistant.
+user
+
+assistant
+95 86 70 70 36",0.0,15.75
+stele_124.jpg,price_95,66.5,"system
+You are a helpful assistant.
+user
+
+assistant
+95 86 70 70 36",0.0,16.0
+stele_124.jpg,price_DT,70.6,"system
+You are a helpful assistant.
+user
+
+assistant
+95 86 70 70 36",0.0,15.75
+stele_125.jpg,price_92,62.15,"system
+You are a helpful assistant.
+user
+
+assistant
+1.50 2.00 2.50 3.00 3.50 4.00 4.50 5.00 5.50 6.00 6.50 7.00 7.50 8.00 8.50 9.00 9.50 10.00 10.50 11.00 11.50 12.00 12.50 13.00 1",0.0,35.0
+stele_125.jpg,price_95,65.6,"system
+You are a helpful assistant.
+user
+
+assistant
+1.50 2.00 2.50 3.00 3.50 4.00 4.50 5.00 5.50 6.00 6.50 7.00 7.50 8.00 8.50 9.00 9.50 10.00 10.50 11.00 11.50 12.00 12.50 13.00 1",0.0,44.25
+stele_125.jpg,price_DT,81.63,"system
+You are a helpful assistant.
+user
+
+assistant
+1.50 2.00 2.50 3.00 3.50 4.00 4.50 5.00 5.50 6.00 6.50 7.00 7.50 8.00 8.50 9.00 9.50 10.00 10.50 11.00 11.50 12.00 12.50 13.00 1",0.0,35.2
+stele_126.jpg,price_92,47.2,"system
+You are a helpful assistant.
+user
+
+assistant
+92,14 7,20 95,48 9,0 98,15 3,5 100,65 3,5 105,95",0.0,24.25
+stele_126.jpg,price_95,48.9,"system
+You are a helpful assistant.
+user
+
+assistant
+92,14 7,20 95,48 9,0 98,15 3,5 100,65 3,5 105,95",0.0,24.25
+stele_126.jpg,price_98,55.35,"system
+You are a helpful assistant.
+user
+
+assistant
+92,14 7,20 95,48 9,0 98,15 3,5 100,65 3,5 105,95",0.0,19.2
+stele_126.jpg,price_DT,55.95,"system
+You are a helpful assistant.
+user
+
+assistant
+92,14 7,20 95,48 9,0 98,15 3,5 100,65 3,5 105,95",0.0,19.2
+stele_127.jpg,price_92,55.0,"system
+You are a helpful assistant.
+user
+
+assistant
+55,08 60,18 61,28",0.0,16.5
+stele_127.jpg,price_95,59.3,"system
+You are a helpful assistant.
+user
+
+assistant
+55,08 60,18 61,28",0.0,17.0
+stele_127.jpg,price_DT,67.2,"system
+You are a helpful assistant.
+user
+
+assistant
+55,08 60,18 61,28",0.0,16.75
+stele_128.jpg,price_92,23.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,0",0.0,44.25
+stele_128.jpg,price_95,24.9,"system
+You are a helpful assistant.
+user
+
+assistant
+2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,0",0.0,44.25
+stele_128.jpg,price_DT,24.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,00 2,91 2,92 2,93 2,94 2,95 2,96 2,97 2,98 2,99 3,0",0.0,44.25
+stele_129.jpg,price_92,55.55,"system
+You are a helpful assistant.
+user
+
+assistant
+0,05 0,10 0,20 0,30 0,40 0,50 0,60 0,70 0,80 0,90 1,00 1,10 1,20 1,30 1,40 1,50 1,60 1,70 1,80 1,90 2,00 2,10 2,20 2,30 2,40 2,5",0.0,35.2
+stele_129.jpg,price_95,58.75,"system
+You are a helpful assistant.
+user
+
+assistant
+0,05 0,10 0,20 0,30 0,40 0,50 0,60 0,70 0,80 0,90 1,00 1,10 1,20 1,30 1,40 1,50 1,60 1,70 1,80 1,90 2,00 2,10 2,20 2,30 2,40 2,5",0.0,35.2
+stele_129.jpg,price_DT,73.73,"system
+You are a helpful assistant.
+user
+
+assistant
+0,05 0,10 0,20 0,30 0,40 0,50 0,60 0,70 0,80 0,90 1,00 1,10 1,20 1,30 1,40 1,50 1,60 1,70 1,80 1,90 2,00 2,10 2,20 2,30 2,40 2,5",0.0,35.2
+stele_130.jpg,price_92,29.0,"system
+You are a helpful assistant.
+user
+
+assistant
+15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57",0.0,44.25
+stele_130.jpg,price_95,32.4,"system
+You are a helpful assistant.
+user
+
+assistant
+15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57",0.0,44.25
+stele_130.jpg,price_98,34.8,"system
+You are a helpful assistant.
+user
+
+assistant
+15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57",0.0,44.25
+stele_130.jpg,price_DT,34.5,"system
+You are a helpful assistant.
+user
+
+assistant
+15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57",0.0,44.25
+stele_131.jpg,price_92,60.5,"system
+You are a helpful assistant.
+user
+
+assistant
+125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 205 210 215 220 225 230 235 240 245 250 255 260 265 270 275 280",0.0,44.0
+stele_131.jpg,price_95,65.3,"system
+You are a helpful assistant.
+user
+
+assistant
+125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 205 210 215 220 225 230 235 240 245 250 255 260 265 270 275 280",0.0,44.0
+stele_131.jpg,price_DT,84.0,"system
+You are a helpful assistant.
+user
+
+assistant
+125 130 135 140 145 150 155 160 165 170 175 180 185 190 195 200 205 210 215 220 225 230 235 240 245 250 255 260 265 270 275 280",0.0,44.0
+stele_132.jpg,price_92,22.6,"system
+You are a helpful assistant.
+user
+
+assistant
+2, 3, 4, 5, 6, 7, 8, 9",0.0,18.0
+stele_132.jpg,price_95,24.4,"system
+You are a helpful assistant.
+user
+
+assistant
+2, 3, 4, 5, 6, 7, 8, 9",0.0,18.0
+stele_132.jpg,price_98,27.0,"system
+You are a helpful assistant.
+user
+
+assistant
+2, 3, 4, 5, 6, 7, 8, 9",0.0,18.0
+stele_132.jpg,price_DT,19.9,"system
+You are a helpful assistant.
+user
+
+assistant
+2, 3, 4, 5, 6, 7, 8, 9",0.0,18.0
+stele_133.jpg,price_92,23.6,"system
+You are a helpful assistant.
+user
+
+assistant
+-10 - 20 - 30 - 40 - 50 - 60 - 70 - 80 - 90 - 100",0.0,24.5
+stele_133.jpg,price_95,25.7,"system
+You are a helpful assistant.
+user
+
+assistant
+-10 - 20 - 30 - 40 - 50 - 60 - 70 - 80 - 90 - 100",0.0,24.5
+stele_134.jpg,price_92,23.2,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11 9",0.0,44.0
+stele_134.jpg,price_95,24.8,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11 9",0.0,44.25
+stele_134.jpg,price_DT,23.1,"system
+You are a helpful assistant.
+user
+
+assistant
+95 92 89 87 85 83 81 79 77 75 73 71 69 67 65 63 61 59 57 55 53 51 49 47 45 43 41 39 37 35 33 31 29 27 25 23 21 19 17 15 13 11 9",0.0,44.0
+stele_135.jpg,price_92,40.59,"system
+You are a helpful assistant.
+user
+
+assistant
+40.58 43.39 44.59 25.09",0.0,14.0
+stele_135.jpg,price_95,43.39,"system
+You are a helpful assistant.
+user
+
+assistant
+40.58 43.39 44.59 25.09",1.0,14.0
+stele_135.jpg,price_DT,44.59,"system
+You are a helpful assistant.
+user
+
+assistant
+40.58 43.39 44.59 25.09",1.0,14.0
+stele_136.jpg,price_92,39.3,"system
+You are a helpful assistant.
+user
+
+assistant
+3.50 3.60 3.70 3.80 4.00 4.10 4.20 4.30 4.40 4.50 4.60 4.70 4.80 4.90 5.00 5.10 5.20 5.30 5.40 5.50 5.60 5.70 5.80 5.90 6.00 6.1",0.0,44.0
+stele_136.jpg,price_95,41.1,"system
+You are a helpful assistant.
+user
+
+assistant
+3.50 3.60 3.70 3.80 4.00 4.10 4.20 4.30 4.40 4.50 4.60 4.70 4.80 4.90 5.00 5.10 5.20 5.30 5.40 5.50 5.60 5.70 5.80 5.90 6.00 6.1",0.0,44.0
+stele_136.jpg,price_98,44.1,"system
+You are a helpful assistant.
+user
+
+assistant
+3.50 3.60 3.70 3.80 4.00 4.10 4.20 4.30 4.40 4.50 4.60 4.70 4.80 4.90 5.00 5.10 5.20 5.30 5.40 5.50 5.60 5.70 5.80 5.90 6.00 6.1",0.0,44.0
+stele_136.jpg,price_DT,43.7,"system
+You are a helpful assistant.
+user
+
+assistant
+3.50 3.60 3.70 3.80 4.00 4.10 4.20 4.30 4.40 4.50 4.60 4.70 4.80 4.90 5.00 5.10 5.20 5.30 5.40 5.50 5.60 5.70 5.80 5.90 6.00 6.1",0.0,44.0
+stele_137.jpg,price_92,73.4,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,44.5
+stele_137.jpg,price_95,81.6,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,44.5
+stele_137.jpg,price_98,93.5,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,44.5
+stele_137.jpg,price_DT,90.7,"system
+You are a helpful assistant.
+user
+
+assistant
+10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 42 44 46 48 50 52 54 56 58 60 62 64 66 68 70 72 74 76 78 80 82 84 86 88 90 92 94",0.0,44.5
+stele_138.jpg,price_92,40.89,"system
+You are a helpful assistant.
+user
+
+assistant
+43.99 40.89 43.09 43.89 50.29 95 95 98 ultimate ultimate 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100",1.0,38.2
+stele_138.jpg,price_95,43.09,"system
+You are a helpful assistant.
+user
+
+assistant
+43.99 40.89 43.09 43.89 50.29 95 95 98 ultimate ultimate 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100",1.0,38.2
+stele_138.jpg,price_98,50.29,"system
+You are a helpful assistant.
+user
+
+assistant
+43.99 40.89 43.09 43.89 50.29 95 95 98 ultimate ultimate 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100",1.0,38.2
+stele_138.jpg,price_DT,43.99,"system
+You are a helpful assistant.
+user
+
+assistant
+43.99 40.89 43.09 43.89 50.29 95 95 98 ultimate ultimate 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100",1.0,38.2
+stele_139.jpg,price_92,41.19,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123",0.0,35.2
+stele_139.jpg,price_95,44.89,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123",0.0,35.2
+stele_139.jpg,price_DT,41.69,"system
+You are a helpful assistant.
+user
+
+assistant
+92 95 98 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123",0.0,35.2
+stele_140.jpg,price_92,42.4,"system
+You are a helpful assistant.
+user
+
+assistant
+95.45 95.40 92.2 92.40 45.85",0.0,19.0
+stele_140.jpg,price_95,45.4,"system
+You are a helpful assistant.
+user
+
+assistant
+95.45 95.40 92.2 92.40 45.85",0.0,19.0
+stele_140.jpg,price_DT,45.95,"system
+You are a helpful assistant.
+user
+
+assistant
+95.45 95.40 92.2 92.40 45.85",0.0,15.0
