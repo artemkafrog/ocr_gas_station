@@ -17,6 +17,9 @@ __pycache__/
 *.swp
 *.swo
 
+# PyTorch Lightning logs
+lightning_logs/
+
 # Project specific
 data/raw/*.jpg
 data/raw/*.png
