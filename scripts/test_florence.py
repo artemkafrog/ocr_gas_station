@@ -1,15 +1,35 @@
 import sys
+import types
+import importlib.machinery
+
+# --- need to fix flash_attn---
+flash_attn = types.ModuleType("flash_attn")
+flash_attn.__spec__ = importlib.machinery.ModuleSpec(name="flash_attn", loader=None)
+flash_attn_interface = types.ModuleType("flash_attn.flash_attn_interface")
+flash_attn_interface.__spec__ = importlib.machinery.ModuleSpec(name="flash_attn.flash_attn_interface", loader=None)
+
+def dummy_func(*args, **kwargs):
+    raise NotImplementedError("flash_attn is not available on this system")
+
+flash_attn_interface.flash_attn_func = dummy_func
+flash_attn_interface.flash_attn_varlen_func = dummy_func
+
+flash_attn.flash_attn_interface = flash_attn_interface
+
+sys.modules["flash_attn"] = flash_attn
+sys.modules["flash_attn.flash_attn_interface"] = flash_attn_interface
+
+import sys
 import os
 import torch
 import pandas as pd
-import requests
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForCausalLM
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.utils.metrics import (
-    calculate_accuracy, calculate_cer, calculate_acer,
+    calculate_cer, calculate_acer,
     calculate_robustness, PerformanceMonitor,
     get_model_size, print_metrics_report
 )
@@ -23,31 +43,37 @@ def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities,
     total_predictions = 0
     total_checks = 0
 
-    # Промпт для Florence-2 (как в примере, но для распознавания цен)
-    prompt = "Распознай цены на бензин на этой стеле. Напиши только числа через пробел."
+    prompt = "<OCR>"
+    device = next(model.parameters()).device
+    torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 
     for i in range(len(images)):
         monitor.start_measure()
 
-        # Подготовка входных данных (как на сайте)
-        inputs = processor(text=prompt, images=images[i], return_tensors="pt")
+        image = images[i].convert("RGB")
 
-        # Перенос на устройство
-        device = next(model.parameters()).device
-        torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
-        inputs = {k: v.to(device, torch_dtype) for k, v in inputs.items()}
+        inputs = processor(
+            text=prompt,
+            images=image,
+            return_tensors="pt"
+        )
 
-        # Генерация
+        inputs = {k: v.to(device) for k, v in inputs.items()}
+        if "pixel_values" in inputs:
+            inputs["pixel_values"] = inputs["pixel_values"].to(torch_dtype)
+
         with torch.no_grad():
             generated_ids = model.generate(
                 input_ids=inputs["input_ids"],
-                pixel_values=inputs["pixel_values"],
-                max_new_tokens=100,
-                num_beams=1,
+                pixel_values=inputs.get("pixel_values", None),
+                max_new_tokens=50,
                 do_sample=False
             )
-            predicted = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
-            predicted = predicted.replace(prompt, "").strip()
+
+        predicted = processor.batch_decode(
+            generated_ids,
+            skip_special_tokens=True
+        )[0].strip()
 
         monitor.end_measure()
 
@@ -86,7 +112,7 @@ def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities,
     }
 
 
-def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="Florence-2-large"):
+def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="Florence-2-base"):
     robustness = calculate_robustness(raw_metrics['Accuracy'], noisy_metrics['Accuracy'])
     time_inf = (raw_metrics['Time_inf'] + noisy_metrics['Time_inf']) / 2
     fps = (raw_metrics['FPS'] + noisy_metrics['FPS']) / 2
@@ -110,51 +136,33 @@ def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="Fl
 
 
 def main():
-    print("Загрузка Florence-2-large...")
-
+    print("Model is installing right now...")
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
     torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
+    model = AutoModelForCausalLM.from_pretrained("microsoft/Florence-2-base", torch_dtype=torch_dtype, trust_remote_code=True).to(device)
+    processor = AutoProcessor.from_pretrained("microsoft/Florence-2-base",trust_remote_code=True)
+    print("GPU:" if torch.cuda.is_available() else "CPU:", device)
+    print("Model is working")
 
-    model = AutoModelForCausalLM.from_pretrained(
-        "microsoft/Florence-2-large",
-        torch_dtype=torch_dtype,
-        trust_remote_code=True
-    ).to(device)
+    r_images, r_expected_prices, r_qualities, r_filenames = load_images_and_labels('../data/raw', '../data/labels/labels_raw.csv')
+    n_images, n_expected_prices, n_qualities, n_filenames = load_images_and_labels('../data/noisy', '../data/labels/labels_noisy.csv')
 
-    processor = AutoProcessor.from_pretrained("microsoft/Florence-2-large", trust_remote_code=True)
+    model_size_mb = get_model_size("microsoft/Florence-2-base")
 
-    if torch.cuda.is_available():
-        print("Используется GPU")
-    else:
-        print("Используется CPU")
-
-    print("Модель Florence-2-large загружена\n")
-
-    r_images, r_expected_prices, r_qualities, r_filenames = load_images_and_labels(
-        '../data/raw', '../data/labels/labels_raw.csv'
-    )
-    n_images, n_expected_prices, n_qualities, n_filenames = load_images_and_labels(
-        '../data/noisy', '../data/labels/labels_noisy.csv'
-    )
-
-    model_size_mb = get_model_size("microsoft/Florence-2-large")
-
-    print("Тестирование на чистых изображениях...")
-    raw_metrics = test_model_on_dataset(processor, model, r_images, r_expected_prices, r_qualities, r_filenames)
-
-    print("Тестирование на зашумленных изображениях...")
+    print("Testing on raw images...")
+    raw_metrics = test_model_on_dataset( processor, model, r_images, r_expected_prices, r_qualities, r_filenames)
+    print("Testing on noisy images...")
     noisy_metrics = test_model_on_dataset(processor, model, n_images, n_expected_prices, n_qualities, n_filenames)
 
-    print_final_report(raw_metrics, noisy_metrics, model_size_mb, "Florence-2-large")
+    print_final_report(raw_metrics, noisy_metrics, model_size_mb)
 
-    df_results_raw = pd.DataFrame(raw_metrics['Results'])
-    df_results_noisy = pd.DataFrame(noisy_metrics['Results'])
-    df_results_raw.to_csv('../results/florence_large_results_raw.csv', index=False)
-    df_results_noisy.to_csv('../results/florence_large_results_noisy.csv', index=False)
+    os.makedirs('../results', exist_ok=True)
+    pd.DataFrame(raw_metrics['Results']).to_csv('../results/florence_base_results_raw.csv', index=False)
+    pd.DataFrame(noisy_metrics['Results']).to_csv('../results/florence_base_results_noisy.csv', index=False)
 
-    print("\nРезультаты сохранены:")
-    print("  - results/florence_large_results_raw.csv (чистые)")
-    print("  - results/florence_large_results_noisy.csv (зашумленные)")
+    print("\nResults saved:")
+    print("  - results/florence_base_results_raw.csv")
+    print("  - results/florence_base_results_noisy.csv")
 
 
 if __name__ == "__main__":

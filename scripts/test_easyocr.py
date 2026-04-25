@@ -1,20 +1,33 @@
 import sys
 import os
-import pandas as pd
-from PIL import Image
-from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import numpy as np
+import pandas as pd
+import easyocr
+from PIL import Image
 
 from src.utils.metrics import (
     is_predicted, calculate_accuracy,
     calculate_cer, calculate_acer,
     calculate_robustness, PerformanceMonitor,
-    get_model_size, print_metrics_report
+    print_metrics_report
 )
 from src.utils.load_data import load_images_and_labels
 
-def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities, filenames):
+
+def get_easyocr_size():
+    easyocr_cache = os.path.expanduser("~/.EasyOCR/model")
+    total = 0
+    if os.path.exists(easyocr_cache):
+        for root, dirs, files in os.walk(easyocr_cache):
+            for file in files:
+                total += os.path.getsize(os.path.join(root, file))
+    return total / (1024 * 1024)
+
+
+def test_model_on_dataset(reader, images, all_prices_dicts, qualities, filenames):
     results = []
     cer_lst = []
     monitor = PerformanceMonitor()
@@ -23,9 +36,11 @@ def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities,
 
     for i in range(len(images)):
         monitor.start_measure()
-        pixel_values = processor(images=images[i], return_tensors="pt").pixel_values
-        generated_ids = model.generate(pixel_values)
-        predicted = processor.batch_decode(generated_ids, skip_special_tokens=True)[0]
+
+        img_np = np.array(images[i])
+        result = reader.readtext(img_np, detail=0, paragraph=False)
+        predicted = " ".join(result) if result else ""
+
         monitor.end_measure()
 
         prices_dict = all_prices_dicts[i]
@@ -42,7 +57,7 @@ def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities,
                 'filename': filenames[i],
                 'fuel_type': fuel_type,
                 'expected': expected_price,
-                'predicted': predicted,
+                'predicted': predicted[:100] if predicted else "",
                 'correct': pred_correct,
                 'cer': cer
             })
@@ -60,7 +75,8 @@ def test_model_on_dataset(processor, model, images, all_prices_dicts, qualities,
         'Total': total_checks
     }
 
-def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="TrOCR"):
+
+def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="EasyOCR"):
     robustness = calculate_robustness(raw_metrics['Accuracy'], noisy_metrics['Accuracy'])
     time_inf = (raw_metrics['Time_inf'] + noisy_metrics['Time_inf']) / 2
     fps = (raw_metrics['FPS'] + noisy_metrics['FPS']) / 2
@@ -83,34 +99,32 @@ def print_final_report(raw_metrics, noisy_metrics, model_size_mb, model_name="Tr
     print_metrics_report(metrics, model_name)
 
 def main():
+    os.chdir(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     print("Model is installing right now...")
-    processor = TrOCRProcessor.from_pretrained('microsoft/trocr-small-printed')
-    model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-small-printed')
+    reader = easyocr.Reader(['ru', 'en'], gpu=False, verbose=False)
     print("Model is working")
 
-    r_images, r_expected_prices, r_qualities, r_filenames = load_images_and_labels('../data/raw','../data/labels/labels_raw.csv')
-    n_images, n_expected_prices, n_qualities, n_filenames = load_images_and_labels('../data/noisy', '../data/labels/labels_noisy.csv')
+    r_images, r_expected_prices, r_qualities, r_filenames = load_images_and_labels('data/raw', 'data/labels/labels_raw.csv')
+    n_images, n_expected_prices, n_qualities, n_filenames = load_images_and_labels('data/noisy', 'data/labels/labels_noisy.csv')
 
     print(f"Raw images: {len(r_images)}")
     print(f"Noisy images: {len(n_images)}\n")
 
-    model_size_mb = get_model_size("microsoft/trocr-small-printed")
-
     print("Testing on raw images...")
-    raw_metrics = test_model_on_dataset(processor, model, r_images, r_expected_prices, r_qualities, r_filenames)
+    raw_metrics = test_model_on_dataset(reader, r_images, r_expected_prices, r_qualities, r_filenames)
     print("Testing on noisy images...")
-    noisy_metrics = test_model_on_dataset(processor, model, n_images, n_expected_prices, n_qualities, n_filenames)
+    noisy_metrics = test_model_on_dataset(reader, n_images, n_expected_prices, n_qualities, n_filenames)
 
-    print_final_report(raw_metrics, noisy_metrics, model_size_mb, "TrOCR")
+    model_size_mb = get_easyocr_size()
+    print_final_report(raw_metrics, noisy_metrics, model_size_mb, "EasyOCR")
 
-    df_results_raw = pd.DataFrame(raw_metrics['Results'])
-    df_results_noisy = pd.DataFrame(noisy_metrics['Results'])
-    df_results_raw.to_csv('../results/trocr_small_printed_results_raw.csv', index=False)
-    df_results_noisy.to_csv('../results/trocr_small_printed_results_noisy.csv', index=False)
+    os.makedirs('results', exist_ok=True)
+    pd.DataFrame(raw_metrics['Results']).to_csv('results/easyocr_raw.csv', index=False)
+    pd.DataFrame(noisy_metrics['Results']).to_csv('results/easyocr_noisy.csv', index=False)
 
     print("\nResults saved:")
-    print("  - results/trocr_results_raw.csv (raw)")
-    print("  - results/trocr_results_noisy.csv (noisy)")
+    print("  - results/easyocr_raw.csv")
+    print("  - results/easyocr_noisy.csv")
 
 
 if __name__ == "__main__":

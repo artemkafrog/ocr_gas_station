@@ -116,7 +116,12 @@ def main():
 
     model_size_mb = get_parseq_model_size('parseq_gas_model.ckpt')
 
+    print(f"Raw images: {len(r_images)}")
+    print(f"Noisy images: {len(n_images)}\n")
+
+    print("Testing on raw images...")
     raw_metrics = test_model_on_dataset(model, r_images, r_expected_prices, r_qualities, r_filenames)
+    print("Testing on noisy images...")
     noisy_metrics = test_model_on_dataset(model, n_images, n_expected_prices, n_qualities, n_filenames)
 
     print_final_report(raw_metrics, noisy_metrics, model_size_mb, "PARSeq (trained)")

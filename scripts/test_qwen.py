@@ -141,7 +141,12 @@ def main():
     r_images, r_expected_prices, r_qualities, r_filenames = load_images_and_labels('../data/raw', '../data/labels/labels_raw.csv')
     n_images, n_expected_prices, n_qualities, n_filenames = load_images_and_labels('../data/noisy', '../data/labels/labels_noisy.csv')
 
+    print(f"Raw images: {len(r_images)}")
+    print(f"Noisy images: {len(n_images)}\n")
+
+    print("Testing on raw images...")
     raw_metrics = test_model_on_dataset(model, processor, r_images, r_expected_prices, r_qualities, r_filenames)
+    print("Testing on noisy images...")
     noisy_metrics = test_model_on_dataset(model, processor, n_images, n_expected_prices, n_qualities, n_filenames)
 
     print_final_report(raw_metrics, noisy_metrics, model_size_mb, "Qwen2.5-VL-3B")

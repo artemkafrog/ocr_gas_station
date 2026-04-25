@@ -1,0 +1,225 @@
+filename,fuel_type,expected,predicted,correct,cer
+stele_71.jpg,price_92,56.93,48А,0.0,1.0
+stele_71.jpg,price_95,63.0,48А,0.0,1.0
+stele_71.jpg,price_98,68.73,48А,0.0,0.8
+stele_71.jpg,price_DT,71.6,48А,0.0,1.0
+stele_72.jpg,price_92,56.9,,0.0,1.0
+stele_72.jpg,price_95,60.9,,0.0,1.0
+stele_72.jpg,price_DT,69.5,,0.0,1.0
+stele_73.jpg,price_92,28.2,,0.0,1.0
+stele_73.jpg,price_95,29.9,,0.0,1.0
+stele_73.jpg,price_DT,25.9,,0.0,1.0
+stele_74.jpg,price_92,41.0,,0.0,1.0
+stele_74.jpg,price_95,43.6,,0.0,1.0
+stele_74.jpg,price_98,48.5,,0.0,1.0
+stele_74.jpg,price_DT,41.0,,0.0,1.0
+stele_75.jpg,price_92,23.54,"₽8 23u %5, 95 ШЙ %Шв 2 415 ji5 QОE IA KA@E@ ОМЕГА ЁЧВЗ",0.0,10.0
+stele_75.jpg,price_95,12.78,"₽8 23u %5, 95 ШЙ %Шв 2 415 ji5 QОE IA KA@E@ ОМЕГА ЁЧВЗ",0.0,10.6
+stele_75.jpg,price_98,23.78,"₽8 23u %5, 95 ШЙ %Шв 2 415 ji5 QОE IA KA@E@ ОМЕГА ЁЧВЗ",0.0,10.4
+stele_75.jpg,price_DT,65.56,"₽8 23u %5, 95 ШЙ %Шв 2 415 ji5 QОE IA KA@E@ ОМЕГА ЁЧВЗ",0.0,10.4
+stele_76.jpg,price_92,20.5,"53{t 'u'{  ` 82лU 8UgU ""BE5 дп   1752 127",0.0,9.75
+stele_76.jpg,price_95,22.0,"53{t 'u'{  ` 82лU 8UgU ""BE5 дп   1752 127",0.0,9.75
+stele_76.jpg,price_DT,17.52,"53{t 'u'{  ` 82лU 8UgU ""BE5 дп   1752 127",0.0,7.6
+stele_77.jpg,price_92,23.0,,0.0,1.0
+stele_77.jpg,price_95,24.0,,0.0,1.0
+stele_77.jpg,price_DT,24.0,,0.0,1.0
+stele_78.jpg,price_92,27.6,Pk UгE,0.0,1.5
+stele_78.jpg,price_DT,33.0,Pk UгE,0.0,1.5
+stele_79.jpg,price_92,27.1,JEUU 3JU E9ш 21m EBJD,0.0,5.0
+stele_79.jpg,price_95,29.0,JEUU 3JU E9ш 21m EBJD,0.0,5.0
+stele_79.jpg,price_98,32.0,JEUU 3JU E9ш 21m EBJD,0.0,4.75
+stele_79.jpg,price_DT,28.3,JEUU 3JU E9ш 21m EBJD,0.0,5.0
+stele_80.jpg,price_92,31.9,ню еэаз еэв зы 51,0.0,4.25
+stele_80.jpg,price_95,34.8,ню еэаз еэв зы 51,0.0,4.25
+stele_80.jpg,price_DT,34.9,ню еэаз еэв зы 51,0.0,4.25
+stele_81.jpg,price_92,40.7,"2 '5 , 3 i .",0.0,3.0
+stele_81.jpg,price_95,44.3,"2 '5 , 3 i .",0.0,2.75
+stele_81.jpg,price_98,48.0,"2 '5 , 3 i .",0.0,3.0
+stele_81.jpg,price_DT,43.5,"2 '5 , 3 i .",0.0,2.75
+stele_82.jpg,price_92,21.0,~i 6s 92 1 'il y } 'u,0.0,4.75
+stele_82.jpg,price_DT,16.0,~i 6s 92 1 'il y } 'u,0.0,5.0
+stele_83.jpg,price_92,29.0,AUUz Eg51 Б I IEШ ЕgШП JJЫ Е--9 тшнгать,0.0,9.5
+stele_83.jpg,price_95,32.6,AUUz Eg51 Б I IEШ ЕgШП JJЫ Е--9 тшнгать,0.0,9.75
+stele_83.jpg,price_98,34.1,AUUz Eg51 Б I IEШ ЕgШП JJЫ Е--9 тшнгать,0.0,9.5
+stele_83.jpg,price_DT,33.6,AUUz Eg51 Б I IEШ ЕgШП JJЫ Е--9 тшнгать,0.0,9.75
+stele_84.jpg,price_92,27.5,лукойл,0.0,1.5
+stele_84.jpg,price_95,29.5,лукойл,0.0,1.5
+stele_84.jpg,price_DT,29.0,лукойл,0.0,1.5
+stele_85.jpg,price_92,25.9,TAXIOIL ESOQuall HHHR aFЯD 6537 поЧD ЕЧ 5П зраъг,0.0,11.75
+stele_85.jpg,price_95,26.9,TAXIOIL ESOQuall HHHR aFЯD 6537 поЧD ЕЧ 5П зраъг,0.0,11.75
+stele_85.jpg,price_98,27.7,TAXIOIL ESOQuall HHHR aFЯD 6537 поЧD ЕЧ 5П зраъг,0.0,11.75
+stele_85.jpg,price_DT,24.5,TAXIOIL ESOQuall HHHR aFЯD 6537 поЧD ЕЧ 5П зраъг,0.0,11.75
+stele_86.jpg,price_92,46.3,,0.0,1.0
+stele_86.jpg,price_95,49.9,,0.0,1.0
+stele_86.jpg,price_98,60.25,,0.0,1.0
+stele_86.jpg,price_DT,53.0,,0.0,1.0
+stele_87.jpg,price_92,40.4,ЧЕЧП [5 HЗSB [т ЧЗ.П E2 .D плюс  СДЕХАНО,0.0,9.75
+stele_87.jpg,price_95,43.5,ЧЕЧП [5 HЗSB [т ЧЗ.П E2 .D плюс  СДЕХАНО,0.0,9.75
+stele_87.jpg,price_DT,43.0,ЧЕЧП [5 HЗSB [т ЧЗ.П E2 .D плюс  СДЕХАНО,0.0,9.75
+stele_88.jpg,price_92,39.5,Си5 Шаз mr ,0.0,2.75
+stele_88.jpg,price_95,41.5,Си5 Шаз mr ,0.0,2.75
+stele_88.jpg,price_DT,41.0,Си5 Шаз mr ,0.0,2.75
+stele_89.jpg,price_92,32.25,[ПРМНЕШМ} Еам 'Jga5' JbС5 H5 15 12 a5 WBJП,0.0,8.0
+stele_89.jpg,price_95,35.15,[ПРМНЕШМ} Еам 'Jga5' JbС5 H5 15 12 a5 WBJП,0.0,7.8
+stele_89.jpg,price_98,39.25,[ПРМНЕШМ} Еам 'Jga5' JbС5 H5 15 12 a5 WBJП,0.0,8.0
+stele_89.jpg,price_DT,33.9,[ПРМНЕШМ} Еам 'Jga5' JbС5 H5 15 12 a5 WBJП,0.0,10.5
+stele_90.jpg,price_92,18.5,щин ;н Ia Kе ПPIM,0.0,4.25
+stele_90.jpg,price_95,20.3,щин ;н Ia Kе ПPIM,0.0,4.25
+stele_90.jpg,price_98,24.6,щин ;н Ia Kе ПPIM,0.0,4.25
+stele_90.jpg,price_DT,19.4,щин ;н Ia Kе ПPIM,0.0,4.25
+stele_91.jpg,price_92,19.99,,0.0,1.0
+stele_91.jpg,price_95,20.99,,0.0,1.0
+stele_92.jpg,price_92,43.65,,0.0,1.0
+stele_92.jpg,price_95,46.85,,0.0,1.0
+stele_92.jpg,price_DT,45.0,,0.0,1.0
+stele_93.jpg,price_92,40.7,ЛУкЭйЛ,0.0,1.5
+stele_93.jpg,price_95,43.5,ЛУкЭйЛ,0.0,1.5
+stele_93.jpg,price_DT,50.0,ЛУкЭйЛ,0.0,1.5
+stele_94.jpg,price_92,32.8,,0.0,1.0
+stele_94.jpg,price_95,35.0,,0.0,1.0
+stele_94.jpg,price_DT,33.75,,0.0,1.0
+stele_95.jpg,price_92,49.03,,0.0,1.0
+stele_95.jpg,price_95,53.75,,0.0,1.0
+stele_95.jpg,price_DT,60.92,,0.0,1.0
+stele_96.jpg,price_92,17.6,,0.0,1.0
+stele_96.jpg,price_95,20.5,,0.0,1.0
+stele_96.jpg,price_DT,19.1,,0.0,1.0
+stele_97.jpg,price_92,23.54,0 [OWЕГА,0.0,1.6
+stele_97.jpg,price_95,12.78,0 [OWЕГА,0.0,1.6
+stele_97.jpg,price_98,23.78,0 [OWЕГА,0.0,1.6
+stele_97.jpg,price_DT,65.56,0 [OWЕГА,0.0,1.6
+stele_98.jpg,price_92,33.0,Ыыщгелшы] #НЕПП ШПП ШПЕЕП FEIЯ ЧАг Eaa,0.0,9.5
+stele_98.jpg,price_95,35.7,Ыыщгелшы] #НЕПП ШПП ШПЕЕП FEIЯ ЧАг Eaa,0.0,9.5
+stele_98.jpg,price_DT,32.5,Ыыщгелшы] #НЕПП ШПП ШПЕЕП FEIЯ ЧАг Eaa,0.0,9.5
+stele_99.jpg,price_92,51.0,,0.0,1.0
+stele_99.jpg,price_95,54.0,,0.0,1.0
+stele_99.jpg,price_DT,67.0,,0.0,1.0
+stele_100.jpg,price_92,40.0,,0.0,1.0
+stele_100.jpg,price_95,42.6,,0.0,1.0
+stele_100.jpg,price_DT,40.0,,0.0,1.0
+stele_101.jpg,price_92,33.6,  Vu,0.0,1.0
+stele_101.jpg,price_95,36.9,  Vu,0.0,1.0
+stele_101.jpg,price_DT,34.5,  Vu,0.0,1.0
+stele_102.jpg,price_92,26.35,52175 DJDD 2Б35 2ц95,0.0,3.4
+stele_102.jpg,price_95,27.75,52175 DJDD 2Б35 2ц95,0.0,3.4
+stele_102.jpg,price_DT,24.95,52175 DJDD 2Б35 2ц95,0.0,3.4
+stele_103.jpg,price_92,28.2,Авс ДЧЯП 'ЕВЕП ЕБЕП E5E [вГазин Kaфв,0.0,9.0
+stele_103.jpg,price_95,29.9,Авс ДЧЯП 'ЕВЕП ЕБЕП E5E [вГазин Kaфв,0.0,9.0
+stele_103.jpg,price_DT,25.9,Авс ДЧЯП 'ЕВЕП ЕБЕП E5E [вГазин Kaфв,0.0,8.75
+stele_104.jpg,price_92,47.6,,0.0,1.0
+stele_104.jpg,price_95,52.4,,0.0,1.0
+stele_104.jpg,price_DT,54.0,,0.0,1.0
+stele_105.jpg,price_92,27.6,шши 2ТБП ЕБШП ЗЗПП,0.0,4.25
+stele_105.jpg,price_DT,33.0,шши 2ТБП ЕБШП ЗЗПП,0.0,4.5
+stele_106.jpg,price_92,52.2,,0.0,1.0
+stele_106.jpg,price_95,56.2,,0.0,1.0
+stele_106.jpg,price_DT,63.0,,0.0,1.0
+stele_107.jpg,price_92,29.8,эLэ,0.0,1.0
+stele_107.jpg,price_95,32.75,эLэ,0.0,1.0
+stele_107.jpg,price_98,33.25,эLэ,0.0,1.0
+stele_107.jpg,price_DT,33.4,эLэ,0.0,1.0
+stele_108.jpg,price_92,37.9,,0.0,1.0
+stele_108.jpg,price_95,41.2,,0.0,1.0
+stele_108.jpg,price_DT,38.62,,0.0,1.0
+stele_110.jpg,price_92,37.13,,0.0,1.0
+stele_110.jpg,price_95,40.3,,0.0,1.0
+stele_110.jpg,price_DT,34.9,,0.0,1.0
+stele_111.jpg,price_92,36.3,3H-9g #яП 5,0.0,2.5
+stele_111.jpg,price_95,38.8,3H-9g #яП 5,0.0,2.5
+stele_111.jpg,price_DT,38.6,3H-9g #яП 5,0.0,2.5
+stele_112.jpg,price_92,54.74,"1 1 "" 1",0.0,1.4
+stele_112.jpg,price_95,59.14,"1 1 "" 1",0.0,1.4
+stele_112.jpg,price_98,78.9,"1 1 "" 1",0.0,1.75
+stele_112.jpg,price_DT,66.5,"1 1 "" 1",0.0,1.75
+stele_113.jpg,price_92,31.88,,0.0,1.0
+stele_113.jpg,price_95,34.48,,0.0,1.0
+stele_113.jpg,price_DT,33.8,,0.0,1.0
+stele_114.jpg,price_92,56.0,РЫШ Яш ЕЕШ ШЦш BIFk I Рабата Fкlip водиТеЛеМ,0.0,11.0
+stele_114.jpg,price_95,10.0,РЫШ Яш ЕЕШ ШЦш BIFk I Рабата Fкlip водиТеЛеМ,0.0,11.0
+stele_115.jpg,price_92,39.2,Январь 2018 шха аx Crкu 45 Tn,0.0,7.0
+stele_115.jpg,price_95,41.8,Январь 2018 шха аx Crкu 45 Tn,0.0,7.0
+stele_115.jpg,price_98,43.1,Январь 2018 шха аx Crкu 45 Tn,0.0,7.0
+stele_115.jpg,price_DT,45.2,Январь 2018 шха аx Crкu 45 Tn,0.0,6.75
+stele_116.jpg,price_92,15.0,em иm Bи 60 Lxoша э0,0.0,4.75
+stele_116.jpg,price_95,19.0,em иm Bи 60 Lxoша э0,0.0,4.75
+stele_116.jpg,price_DT,19.0,em иm Bи 60 Lxoша э0,0.0,4.75
+stele_117.jpg,price_92,20.4,ЛУКОйл [55 @ЧШ Е1Ч АЧП [F55;,0.0,7.0
+stele_117.jpg,price_95,21.4,ЛУКОйл [55 @ЧШ Е1Ч АЧП [F55;,0.0,6.75
+stele_117.jpg,price_98,23.55,ЛУКОйл [55 @ЧШ Е1Ч АЧП [F55;,0.0,5.2
+stele_117.jpg,price_DT,23.55,ЛУКОйл [55 @ЧШ Е1Ч АЧП [F55;,0.0,5.2
+stele_118.jpg,price_92,46.83,,0.0,1.0
+stele_118.jpg,price_95,49.55,,0.0,1.0
+stele_118.jpg,price_DT,55.78,,0.0,1.0
+stele_119.jpg,price_92,52.6,,0.0,1.0
+stele_119.jpg,price_95,56.4,,0.0,1.0
+stele_119.jpg,price_98,82.0,,0.0,1.0
+stele_119.jpg,price_DT,72.0,,0.0,1.0
+stele_120.jpg,price_92,60.7,,0.0,1.0
+stele_120.jpg,price_95,69.3,,0.0,1.0
+stele_120.jpg,price_DT,70.6,,0.0,1.0
+stele_121.jpg,price_92,9.5,illl RS [ QЕPA яытн JagSU Вшm ця,0.0,10.666666666666666
+stele_121.jpg,price_95,32.5,illl RS [ QЕPA яытн JagSU Вшm ця,0.0,8.0
+stele_121.jpg,price_DT,31.9,illl RS [ QЕPA яытн JagSU Вшm ця,0.0,8.0
+stele_122.jpg,price_92,40.9,Grxntu[gafi,0.0,2.75
+stele_122.jpg,price_95,43.3,Grxntu[gafi,0.0,2.75
+stele_122.jpg,price_DT,50.45,Grxntu[gafi,0.0,2.2
+stele_123.jpg,price_92,43.8,ев що 1a ~вL Евао ,0.0,4.5
+stele_123.jpg,price_95,45.35,ев що 1a ~вL Евао ,0.0,3.6
+stele_123.jpg,price_98,49.4,ев що 1a ~вL Евао ,0.0,4.5
+stele_123.jpg,price_DT,50.7,ев що 1a ~вL Евао ,0.0,4.5
+stele_124.jpg,price_92,60.7,шиа 4983 [5 БаШ В fE [ НЬя1,0.0,6.75
+stele_124.jpg,price_95,66.5,шиа 4983 [5 БаШ В fE [ НЬя1,0.0,6.5
+stele_124.jpg,price_DT,70.6,шиа 4983 [5 БаШ В fE [ НЬя1,0.0,6.75
+stele_125.jpg,price_92,62.15,,0.0,1.0
+stele_125.jpg,price_95,65.6,,0.0,1.0
+stele_125.jpg,price_DT,81.63,,0.0,1.0
+stele_126.jpg,price_92,47.2,"[ZЕШ [ВЯ [5 15 Дil5; g5 """,0.0,6.25
+stele_126.jpg,price_95,48.9,"[ZЕШ [ВЯ [5 15 Дil5; g5 """,0.0,6.25
+stele_126.jpg,price_98,55.35,"[ZЕШ [ВЯ [5 15 Дil5; g5 """,0.0,4.4
+stele_126.jpg,price_DT,55.95,"[ZЕШ [ВЯ [5 15 Дil5; g5 """,0.0,4.4
+stele_127.jpg,price_92,55.0,F5IT 54 EnE  6141,0.0,3.75
+stele_127.jpg,price_95,59.3,F5IT 54 EnE  6141,0.0,4.0
+stele_127.jpg,price_DT,67.2,F5IT 54 EnE  6141,0.0,4.0
+stele_128.jpg,price_92,23.0,Aun ~2чш,0.0,2.0
+stele_128.jpg,price_95,24.9,Aun ~2чш,0.0,2.0
+stele_128.jpg,price_DT,24.0,Aun ~2чш,0.0,2.0
+stele_129.jpg,price_92,55.55,,0.0,1.0
+stele_129.jpg,price_95,58.75,,0.0,1.0
+stele_129.jpg,price_DT,73.73,,0.0,1.0
+stele_130.jpg,price_92,29.0,Vтаз,0.0,1.0
+stele_130.jpg,price_95,32.4,Vтаз,0.0,1.0
+stele_130.jpg,price_98,34.8,Vтаз,0.0,1.0
+stele_130.jpg,price_DT,34.5,Vтаз,0.0,1.0
+stele_131.jpg,price_92,60.5,,0.0,1.0
+stele_131.jpg,price_95,65.3,,0.0,1.0
+stele_131.jpg,price_DT,84.0,,0.0,1.0
+stele_132.jpg,price_92,22.6,,0.0,1.0
+stele_132.jpg,price_95,24.4,,0.0,1.0
+stele_132.jpg,price_98,27.0,,0.0,1.0
+stele_132.jpg,price_DT,19.9,,0.0,1.0
+stele_133.jpg,price_92,23.6,,0.0,1.0
+stele_133.jpg,price_95,25.7,,0.0,1.0
+stele_134.jpg,price_92,23.2,0a,0.0,1.0
+stele_134.jpg,price_95,24.8,0a,0.0,1.0
+stele_134.jpg,price_DT,23.1,0a,0.0,1.0
+stele_135.jpg,price_92,40.59,"Illll 45 39 [чs9 25 .5 пратолm ABТ, ПРАgПаАн АI засгать Epu $ ЧПs9",0.0,12.4
+stele_135.jpg,price_95,43.39,"Illll 45 39 [чs9 25 .5 пратолm ABТ, ПРАgПаАн АI засгать Epu $ ЧПs9",0.0,12.4
+stele_135.jpg,price_DT,44.59,"Illll 45 39 [чs9 25 .5 пратолm ABТ, ПРАgПаАн АI засгать Epu $ ЧПs9",0.0,12.4
+stele_136.jpg,price_92,39.3,,0.0,1.0
+stele_136.jpg,price_95,41.1,,0.0,1.0
+stele_136.jpg,price_98,44.1,,0.0,1.0
+stele_136.jpg,price_DT,43.7,,0.0,1.0
+stele_137.jpg,price_92,73.4,,0.0,1.0
+stele_137.jpg,price_95,81.6,,0.0,1.0
+stele_137.jpg,price_98,93.5,,0.0,1.0
+stele_137.jpg,price_DT,90.7,,0.0,1.0
+stele_138.jpg,price_92,40.89,60 ДТ 92 [Ч0ВЯ 95 [ЧЗ69 95 ЧЗВЗ Ima e 98 [5Cg Himma e свооркорав ntc коnо Бысота сиМБОЛаБт0мм 'гм Wi,0.0,22.8
+stele_138.jpg,price_95,43.09,60 ДТ 92 [Ч0ВЯ 95 [ЧЗ69 95 ЧЗВЗ Ima e 98 [5Cg Himma e свооркорав ntc коnо Бысота сиМБОЛаБт0мм 'гм Wi,0.0,23.0
+stele_138.jpg,price_98,50.29,60 ДТ 92 [Ч0ВЯ 95 [ЧЗ69 95 ЧЗВЗ Ima e 98 [5Cg Himma e свооркорав ntc коnо Бысота сиМБОЛаБт0мм 'гм Wi,0.0,22.8
+stele_138.jpg,price_DT,43.99,60 ДТ 92 [Ч0ВЯ 95 [ЧЗ69 95 ЧЗВЗ Ima e 98 [5Cg Himma e свооркорав ntc коnо Бысота сиМБОЛаБт0мм 'гм Wi,0.0,23.0
+stele_139.jpg,price_92,41.19,1uln ZUBEF Мы БТАРАЛИЧ,0.0,4.4
+stele_139.jpg,price_95,44.89,1uln ZUBEF Мы БТАРАЛИЧ,0.0,4.4
+stele_139.jpg,price_DT,41.69,1uln ZUBEF Мы БТАРАЛИЧ,0.0,4.4
+stele_140.jpg,price_92,42.4,illll,0.0,1.25
+stele_140.jpg,price_95,45.4,illll,0.0,1.25
+stele_140.jpg,price_DT,45.95,illll,0.0,1.0
