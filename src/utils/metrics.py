@@ -99,6 +99,14 @@ def get_model_size(model_path: str) -> float:
 
     return size_mb
 
+# def calculate_mse(predicted_prices: dict, expected_prices: dict) -> float:
+#     "For calculate MSE"
+#     errors = []
+#     for fuel, expected in expected_prices.items():
+#         pred = predicted_prices.get(fuel, None)
+#         if pred:
+#             errors.append((float(pred) - float(expected)) ** 2)
+#     return sum(errors) / len(errors) if errors else float('inf')
 
 def print_metrics_report(metrics: dict, model_name: str = "Model"):
     print(f"\n{'=' * 50}")
@@ -108,7 +116,8 @@ def print_metrics_report(metrics: dict, model_name: str = "Model"):
 
     print(f"Accuracy:   {metrics['Accuracy']:.2f}%")
     print(f"ACER:       {metrics['ACER']:.2f}%")
-    print(f"Robustness: {metrics["Robustness"]:.2f}%\n")
+    print(f"Robustness: {metrics['Robustness']:.2f}%")
+    #print(f"MSE:        {metrics['MSE']:.2f}\n")
 
     if metrics.get('Time_inf') is not None:
         print(f"Time inference: {metrics['Time_inf']:.3f} s")
