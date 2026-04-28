@@ -6,6 +6,8 @@ from torch.utils.data import DataLoader, Dataset
 from PIL import Image
 import json
 from torchvision import transforms
+os.chdir('')
+print("Current working directory:", os.getcwd())
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'parseq'))
 
@@ -83,13 +85,13 @@ model = PARSeq(
 )
 
 data_module = GasDataModule(
-    train_json='../data/prepared/annotations/raw_train.json',
-    val_json='../data/prepared/annotations/raw_val.json',
+    train_json='data/prepared/annotations/raw_train.json',
+    val_json='data/prepared/annotations/raw_val.json',
     batch_size=8
 )
 
 trainer = pl.Trainer(
-    max_epochs=10,
+    max_epochs=100,
     accelerator='cpu',
     devices=1
 )

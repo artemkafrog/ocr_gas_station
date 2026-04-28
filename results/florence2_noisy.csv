@@ -1,0 +1,225 @@
+filename,fuel_type,expected,predicted,response,correct,cer
+stele_71.jpg,price_92,56.93,,48A,0.0,1.0
+stele_71.jpg,price_95,63.0,,48A,0.0,1.0
+stele_71.jpg,price_98,68.73,,48A,0.0,1.0
+stele_71.jpg,price_DT,71.6,,48A,0.0,1.0
+stele_72.jpg,price_92,56.9,,SIRKI,0.0,1.0
+stele_72.jpg,price_95,60.9,,SIRKI,0.0,1.0
+stele_72.jpg,price_DT,69.5,,SIRKI,0.0,1.0
+stele_73.jpg,price_92,28.2,,-,0.0,1.0
+stele_73.jpg,price_95,29.9,,-,0.0,1.0
+stele_73.jpg,price_DT,25.9,,-,0.0,1.0
+stele_74.jpg,price_92,41.0,,-,0.0,1.0
+stele_74.jpg,price_95,43.6,,-,0.0,1.0
+stele_74.jpg,price_98,48.5,,-,0.0,1.0
+stele_74.jpg,price_DT,41.0,,-,0.0,1.0
+stele_75.jpg,price_92,23.54,23.55,QOMETA98 23.1895.64.8995 12.1892.63.8992 23.5480 8 1.62Q OMETAIIT 65.56ETAOMETAMAFASHIN24KAODE,1.0,0.2
+stele_75.jpg,price_95,12.78,,QOMETA98 23.1895.64.8995 12.1892.63.8992 23.5480 8 1.62Q OMETAIIT 65.56ETAOMETAMAFASHIN24KAODE,0.0,1.0
+stele_75.jpg,price_98,23.78,,QOMETA98 23.1895.64.8995 12.1892.63.8992 23.5480 8 1.62Q OMETAIIT 65.56ETAOMETAMAFASHIN24KAODE,0.0,1.0
+stele_75.jpg,price_DT,65.56,65.56,QOMETA98 23.1895.64.8995 12.1892.63.8992 23.5480 8 1.62Q OMETAIIT 65.56ETAOMETAMAFASHIN24KAODE,1.0,0.0
+stele_76.jpg,price_92,20.5,20.50,Excellent95 22.0092 20.50An 18.65An 11.52LPG12.7,1.0,0.25
+stele_76.jpg,price_95,22.0,22.01,Excellent95 22.0092 20.50An 18.65An 11.52LPG12.7,1.0,0.25
+stele_76.jpg,price_DT,17.52,,Excellent95 22.0092 20.50An 18.65An 11.52LPG12.7,0.0,1.0
+stele_77.jpg,price_92,23.0,,-,0.0,1.0
+stele_77.jpg,price_95,24.0,,-,0.0,1.0
+stele_77.jpg,price_DT,24.0,,-,0.0,1.0
+stele_78.jpg,price_92,27.6,,SPIRE,0.0,1.0
+stele_78.jpg,price_DT,33.0,,SPIRE,0.0,1.0
+stele_79.jpg,price_92,27.1,,ПАЗРИЕСОТЬ32.0029.9029.0021.1028.30,0.0,1.0
+stele_79.jpg,price_95,29.0,,ПАЗРИЕСОТЬ32.0029.9029.0021.1028.30,0.0,1.0
+stele_79.jpg,price_98,32.0,32.00,ПАЗРИЕСОТЬ32.0029.9029.0021.1028.30,1.0,0.25
+stele_79.jpg,price_DT,28.3,,ПАЗРИЕСОТЬ32.0029.9029.0021.1028.30,0.0,1.0
+stele_80.jpg,price_92,31.9,,3:803:90,0.0,1.0
+stele_80.jpg,price_95,34.8,,3:803:90,0.0,1.0
+stele_80.jpg,price_DT,34.9,,3:803:90,0.0,1.0
+stele_81.jpg,price_92,40.7,,COA,0.0,1.0
+stele_81.jpg,price_95,44.3,,COA,0.0,1.0
+stele_81.jpg,price_98,48.0,,COA,0.0,1.0
+stele_81.jpg,price_DT,43.5,,COA,0.0,1.0
+stele_82.jpg,price_92,21.0,,Nikon9592 1.0080 1.80,0.0,1.0
+stele_82.jpg,price_DT,16.0,,Nikon9592 1.0080 1.80,0.0,1.0
+stele_83.jpg,price_92,29.0,,EALWHEOTbATUM29.5034.10326029.00/33.60EBPO,0.0,1.0
+stele_83.jpg,price_95,32.6,,EALWHEOTbATUM29.5034.10326029.00/33.60EBPO,0.0,1.0
+stele_83.jpg,price_98,34.1,,EALWHEOTbATUM29.5034.10326029.00/33.60EBPO,0.0,1.0
+stele_83.jpg,price_DT,33.6,33.60,EALWHEOTbATUM29.5034.10326029.00/33.60EBPO,1.0,0.25
+stele_84.jpg,price_92,27.5,,LUKJYKOnn,0.0,1.0
+stele_84.jpg,price_95,29.5,,LUKJYKOnn,0.0,1.0
+stele_84.jpg,price_DT,29.0,,LUKJYKOnn,0.0,1.0
+stele_85.jpg,price_92,25.9,25.90,TAXIOILESO Quality88.4888.21.095 25.9025.9080 25.40OT 24.50,1.0,0.25
+stele_85.jpg,price_95,26.9,,TAXIOILESO Quality88.4888.21.095 25.9025.9080 25.40OT 24.50,0.0,1.0
+stele_85.jpg,price_98,27.7,,TAXIOILESO Quality88.4888.21.095 25.9025.9080 25.40OT 24.50,0.0,1.0
+stele_85.jpg,price_DT,24.5,24.50,TAXIOILESO Quality88.4888.21.095 25.9025.9080 25.40OT 24.50,1.0,0.25
+stele_86.jpg,price_92,46.3,,5.30,0.0,1.0
+stele_86.jpg,price_95,49.9,,5.30,0.0,1.0
+stele_86.jpg,price_98,60.25,,5.30,0.0,1.0
+stele_86.jpg,price_DT,53.0,,5.30,0.0,1.0
+stele_87.jpg,price_92,40.4,,МБКПЛОС9240.409543.50AT43.00ТАЯ22.00WCСДЕДAHO,0.0,1.0
+stele_87.jpg,price_95,43.5,,МБКПЛОС9240.409543.50AT43.00ТАЯ22.00WCСДЕДAHO,0.0,1.0
+stele_87.jpg,price_DT,43.0,43.00,МБКПЛОС9240.409543.50AT43.00ТАЯ22.00WCСДЕДAHO,1.0,0.25
+stele_88.jpg,price_92,39.5,39.50,СИБЕЛИ95 41.6092 39.50АТЕ ИОЛAT 43.80Магазин,1.0,0.25
+stele_88.jpg,price_95,41.5,,СИБЕЛИ95 41.6092 39.50АТЕ ИОЛAT 43.80Магазин,0.0,1.0
+stele_88.jpg,price_DT,41.0,,СИБЕЛИ95 41.6092 39.50АТЕ ИОЛAT 43.80Магазин,0.0,1.0
+stele_89.jpg,price_92,32.25,,ГАЗОРИЕТЬСФИ39.2936.2595.95.1692.2.2503.90,0.0,1.0
+stele_89.jpg,price_95,35.15,,ГАЗОРИЕТЬСФИ39.2936.2595.95.1692.2.2503.90,0.0,1.0
+stele_89.jpg,price_98,39.25,39.29,ГАЗОРИЕТЬСФИ39.2936.2595.95.1692.2.2503.90,1.0,0.2
+stele_89.jpg,price_DT,33.9,,ГАЗОРИЕТЬСФИ39.2936.2595.95.1692.2.2503.90,0.0,1.0
+stele_90.jpg,price_92,18.5,,MSIPOM,0.0,1.0
+stele_90.jpg,price_95,20.3,,MSIPOM,0.0,1.0
+stele_90.jpg,price_98,24.6,,MSIPOM,0.0,1.0
+stele_90.jpg,price_DT,19.4,,MSIPOM,0.0,1.0
+stele_91.jpg,price_92,19.99,,٠٠,0.0,1.0
+stele_91.jpg,price_95,20.99,,٠٠,0.0,1.0
+stele_92.jpg,price_92,43.65,,100.0020-0,0.0,1.0
+stele_92.jpg,price_95,46.85,,100.0020-0,0.0,1.0
+stele_92.jpg,price_DT,45.0,,100.0020-0,0.0,1.0
+stele_93.jpg,price_92,40.7,,UKАУКОЛИЙEpoSKTO 1001005095,0.0,1.0
+stele_93.jpg,price_95,43.5,,UKАУКОЛИЙEpoSKTO 1001005095,0.0,1.0
+stele_93.jpg,price_DT,50.0,,UKАУКОЛИЙEpoSKTO 1001005095,0.0,1.0
+stele_94.jpg,price_92,32.8,,F3,0.0,1.0
+stele_94.jpg,price_95,35.0,,F3,0.0,1.0
+stele_94.jpg,price_DT,33.75,,F3,0.0,1.0
+stele_95.jpg,price_92,49.03,,LKAYKORUA,0.0,1.0
+stele_95.jpg,price_95,53.75,,LKAYKORUA,0.0,1.0
+stele_95.jpg,price_DT,60.92,,LKAYKORUA,0.0,1.0
+stele_96.jpg,price_92,17.6,,-,0.0,1.0
+stele_96.jpg,price_95,20.5,,-,0.0,1.0
+stele_96.jpg,price_DT,19.1,,-,0.0,1.0
+stele_97.jpg,price_92,23.54,,OMETA,0.0,1.0
+stele_97.jpg,price_95,12.78,,OMETA,0.0,1.0
+stele_97.jpg,price_98,23.78,,OMETA,0.0,1.0
+stele_97.jpg,price_DT,65.56,,OMETA,0.0,1.0
+stele_98.jpg,price_92,33.0,,СИТЕМЫ95 95.1072.3300m:3250E:305024 HACA,0.0,1.0
+stele_98.jpg,price_95,35.7,,СИТЕМЫ95 95.1072.3300m:3250E:305024 HACA,0.0,1.0
+stele_98.jpg,price_DT,32.5,,СИТЕМЫ95 95.1072.3300m:3250E:305024 HACA,0.0,1.0
+stele_99.jpg,price_92,51.0,,아리스타자에세,0.0,1.0
+stele_99.jpg,price_95,54.0,,아리스타자에세,0.0,1.0
+stele_99.jpg,price_DT,67.0,,아리스타자에세,0.0,1.0
+stele_100.jpg,price_92,40.0,,C,0.0,1.0
+stele_100.jpg,price_95,42.6,,C,0.0,1.0
+stele_100.jpg,price_DT,40.0,,C,0.0,1.0
+stele_101.jpg,price_92,33.6,,UKwww.rekama.rt16.ruAukapoARATAP,0.0,1.0
+stele_101.jpg,price_95,36.9,,UKwww.rekama.rt16.ruAukapoARATAP,0.0,1.0
+stele_101.jpg,price_DT,34.5,,UKwww.rekama.rt16.ruAukapoARATAP,0.0,1.0
+stele_102.jpg,price_92,26.35,26.35,LUKAMKAPPS$2.1592.00.0092.26.3537:24.95,1.0,0.0
+stele_102.jpg,price_95,27.75,,LUKAMKAPPS$2.1592.00.0092.26.3537:24.95,0.0,1.0
+stele_102.jpg,price_DT,24.95,24.95,LUKAMKAPPS$2.1592.00.0092.26.3537:24.95,1.0,0.0
+stele_103.jpg,price_92,28.2,28.21,A3C95 29.9092 28.2080 26.20AT 25.90MaraзинKade,1.0,0.25
+stele_103.jpg,price_95,29.9,29.91,A3C95 29.9092 28.2080 26.20AT 25.90MaraзинKade,1.0,0.25
+stele_103.jpg,price_DT,25.9,25.90,A3C95 29.9092 28.2080 26.20AT 25.90MaraзинKade,1.0,0.25
+stele_104.jpg,price_92,47.6,,LORU,0.0,1.0
+stele_104.jpg,price_95,52.4,,LORU,0.0,1.0
+stele_104.jpg,price_DT,54.0,,LORU,0.0,1.0
+stele_105.jpg,price_92,27.6,27.61,MTK27.609226.008033.00AT,1.0,0.25
+stele_105.jpg,price_DT,33.0,,MTK27.609226.008033.00AT,0.0,1.0
+stele_106.jpg,price_92,52.2,,....,0.0,1.0
+stele_106.jpg,price_95,56.2,,....,0.0,1.0
+stele_106.jpg,price_DT,63.0,,....,0.0,1.0
+stele_107.jpg,price_92,29.8,,LK3CTO33253340,0.0,1.0
+stele_107.jpg,price_95,32.75,,LK3CTO33253340,0.0,1.0
+stele_107.jpg,price_98,33.25,,LK3CTO33253340,0.0,1.0
+stele_107.jpg,price_DT,33.4,,LK3CTO33253340,0.0,1.0
+stele_108.jpg,price_92,37.9,,-,0.0,1.0
+stele_108.jpg,price_95,41.2,,-,0.0,1.0
+stele_108.jpg,price_DT,38.62,,-,0.0,1.0
+stele_110.jpg,price_92,37.13,,UK,0.0,1.0
+stele_110.jpg,price_95,40.3,,UK,0.0,1.0
+stele_110.jpg,price_DT,34.9,,UK,0.0,1.0
+stele_111.jpg,price_92,36.3,,4039.9038.8036.3038.60DRIVECafe,0.0,1.0
+stele_111.jpg,price_95,38.8,,4039.9038.8036.3038.60DRIVECafe,0.0,1.0
+stele_111.jpg,price_DT,38.6,,4039.9038.8036.3038.60DRIVECafe,0.0,1.0
+stele_112.jpg,price_92,54.74,,59.H59.7498.18.3068.50,0.0,1.0
+stele_112.jpg,price_95,59.14,,59.H59.7498.18.3068.50,0.0,1.0
+stele_112.jpg,price_98,78.9,,59.H59.7498.18.3068.50,0.0,1.0
+stele_112.jpg,price_DT,66.5,,59.H59.7498.18.3068.50,0.0,1.0
+stele_113.jpg,price_92,31.88,,-,0.0,1.0
+stele_113.jpg,price_95,34.48,,-,0.0,1.0
+stele_113.jpg,price_DT,33.8,,-,0.0,1.0
+stele_114.jpg,price_92,56.0,,12:30Av - 9510:00Av - 92ED10:000PWCVASRENTРавога волителем,0.0,1.0
+stele_114.jpg,price_95,10.0,,12:30Av - 9510:00Av - 92ED10:000PWCVASRENTРавога волителем,0.0,1.0
+stele_115.jpg,price_92,39.2,,"ДНВАРЫ, 2018РоснейФТЬ",0.0,1.0
+stele_115.jpg,price_95,41.8,,"ДНВАРЫ, 2018РоснейФТЬ",0.0,1.0
+stele_115.jpg,price_98,43.1,,"ДНВАРЫ, 2018РоснейФТЬ",0.0,1.0
+stele_115.jpg,price_DT,45.2,,"ДНВАРЫ, 2018РоснейФТЬ",0.0,1.0
+stele_116.jpg,price_92,15.0,,FA2oin$9.00$5.00M:00$3.0000:00,0.0,1.0
+stele_116.jpg,price_95,19.0,,FA2oin$9.00$5.00M:00$3.0000:00,0.0,1.0
+stele_116.jpg,price_DT,19.0,,FA2oin$9.00$5.00M:00$3.0000:00,0.0,1.0
+stele_117.jpg,price_92,20.4,20.41,ЛУКОИЙЗК TО. 23.5592 20.4095.2 14095 2.14098.23.55ПЯАРА/IМЕМ,1.0,0.25
+stele_117.jpg,price_95,21.4,,ЛУКОИЙЗК TО. 23.5592 20.4095.2 14095 2.14098.23.55ПЯАРА/IМЕМ,0.0,1.0
+stele_117.jpg,price_98,23.55,23.56,ЛУКОИЙЗК TО. 23.5592 20.4095.2 14095 2.14098.23.55ПЯАРА/IМЕМ,1.0,0.2
+stele_117.jpg,price_DT,23.55,23.56,ЛУКОИЙЗК TО. 23.5592 20.4095.2 14095 2.14098.23.55ПЯАРА/IМЕМ,1.0,0.2
+stele_118.jpg,price_92,46.83,,$14.83$19.55$15.78,0.0,1.0
+stele_118.jpg,price_95,49.55,,$14.83$19.55$15.78,0.0,1.0
+stele_118.jpg,price_DT,55.78,,$14.83$19.55$15.78,0.0,1.0
+stele_119.jpg,price_92,52.6,,X,0.0,1.0
+stele_119.jpg,price_95,56.4,,X,0.0,1.0
+stele_119.jpg,price_98,82.0,,X,0.0,1.0
+stele_119.jpg,price_DT,72.0,,X,0.0,1.0
+stele_120.jpg,price_92,60.7,,A,0.0,1.0
+stele_120.jpg,price_95,69.3,,A,0.0,1.0
+stele_120.jpg,price_DT,70.6,,A,0.0,1.0
+stele_121.jpg,price_92,9.5,,92.09.5030.002.50AT 3 L90CPA,0.0,1.0
+stele_121.jpg,price_95,32.5,,92.09.5030.002.50AT 3 L90CPA,0.0,1.0
+stele_121.jpg,price_DT,31.9,,92.09.5030.002.50AT 3 L90CPA,0.0,1.0
+stele_122.jpg,price_92,40.9,,50.35,0.0,1.0
+stele_122.jpg,price_95,43.3,,50.35,0.0,1.0
+stele_122.jpg,price_DT,50.45,,50.35,0.0,1.0
+stele_123.jpg,price_92,43.8,,Eppo-S,0.0,1.0
+stele_123.jpg,price_95,45.35,,Eppo-S,0.0,1.0
+stele_123.jpg,price_98,49.4,,Eppo-S,0.0,1.0
+stele_123.jpg,price_DT,50.7,,Eppo-S,0.0,1.0
+stele_124.jpg,price_92,60.7,,9565.599566.599260.7007 70 60T3 36.90,0.0,1.0
+stele_124.jpg,price_95,66.5,,9565.599566.599260.7007 70 60T3 36.90,0.0,1.0
+stele_124.jpg,price_DT,70.6,,9565.599566.599260.7007 70 60T3 36.90,0.0,1.0
+stele_125.jpg,price_92,62.15,,25,0.0,1.0
+stele_125.jpg,price_95,65.6,,25,0.0,1.0
+stele_125.jpg,price_DT,81.63,,25,0.0,1.0
+stele_126.jpg,price_92,47.2,,POLHEETS92.41.2095 148.9098 155.35AT155.95CAMOCOCY WHEANAPOPOLAKA ABTOUGHT,0.0,1.0
+stele_126.jpg,price_95,48.9,,POLHEETS92.41.2095 148.9098 155.35AT155.95CAMOCOCY WHEANAPOPOLAKA ABTOUGHT,0.0,1.0
+stele_126.jpg,price_98,55.35,,POLHEETS92.41.2095 148.9098 155.35AT155.95CAMOCOCY WHEANAPOPOLAKA ABTOUGHT,0.0,1.0
+stele_126.jpg,price_DT,55.95,,POLHEETS92.41.2095 148.9098 155.35AT155.95CAMOCOCY WHEANAPOPOLAKA ABTOUGHT,0.0,1.0
+stele_127.jpg,price_92,55.0,,$5.10$9.3060.00AT 61.20,0.0,1.0
+stele_127.jpg,price_95,59.3,,$5.10$9.3060.00AT 61.20,0.0,1.0
+stele_127.jpg,price_DT,67.2,,$5.10$9.3060.00AT 61.20,0.0,1.0
+stele_128.jpg,price_92,23.0,,G242400,0.0,1.0
+stele_128.jpg,price_95,24.9,,G242400,0.0,1.0
+stele_128.jpg,price_DT,24.0,,G242400,0.0,1.0
+stele_129.jpg,price_92,55.55,,POCCHEAT,0.0,1.0
+stele_129.jpg,price_95,58.75,,POCCHEAT,0.0,1.0
+stele_129.jpg,price_DT,73.73,,POCCHEAT,0.0,1.0
+stele_130.jpg,price_92,29.0,,MAYA,0.0,1.0
+stele_130.jpg,price_95,32.4,,MAYA,0.0,1.0
+stele_130.jpg,price_98,34.8,,MAYA,0.0,1.0
+stele_130.jpg,price_DT,34.5,,MAYA,0.0,1.0
+stele_131.jpg,price_92,60.5,,BARAKAT65.3020 00 00,0.0,1.0
+stele_131.jpg,price_95,65.3,65.30,BARAKAT65.3020 00 00,1.0,0.25
+stele_131.jpg,price_DT,84.0,,BARAKAT65.3020 00 00,0.0,1.0
+stele_132.jpg,price_92,22.6,,-,0.0,1.0
+stele_132.jpg,price_95,24.4,,-,0.0,1.0
+stele_132.jpg,price_98,27.0,,-,0.0,1.0
+stele_132.jpg,price_DT,19.9,,-,0.0,1.0
+stele_133.jpg,price_92,23.6,,COURTESY JIMMY CHOO,0.0,1.0
+stele_133.jpg,price_95,25.7,,COURTESY JIMMY CHOO,0.0,1.0
+stele_134.jpg,price_92,23.2,,РОСС ИЕР,0.0,1.0
+stele_134.jpg,price_95,24.8,,РОСС ИЕР,0.0,1.0
+stele_134.jpg,price_DT,23.1,,РОСС ИЕР,0.0,1.0
+stele_135.jpg,price_92,40.59,,РОСИНЕТЬExpo-592 405895 43 3944 59ПР-CОřБАЗДА ЗА25:03ABTOстраждание,0.0,1.0
+stele_135.jpg,price_95,43.39,,РОСИНЕТЬExpo-592 405895 43 3944 59ПР-CОřБАЗДА ЗА25:03ABTOстраждание,0.0,1.0
+stele_135.jpg,price_DT,44.59,,РОСИНЕТЬExpo-592 405895 43 3944 59ПР-CОřБАЗДА ЗА25:03ABTOстраждание,0.0,1.0
+stele_136.jpg,price_92,39.3,,-,0.0,1.0
+stele_136.jpg,price_95,41.1,,-,0.0,1.0
+stele_136.jpg,price_98,44.1,,-,0.0,1.0
+stele_136.jpg,price_DT,43.7,,-,0.0,1.0
+stele_137.jpg,price_92,73.4,,٠٠,0.0,1.0
+stele_137.jpg,price_95,81.6,,٠٠,0.0,1.0
+stele_137.jpg,price_98,93.5,,٠٠,0.0,1.0
+stele_137.jpg,price_DT,90.7,,٠٠,0.0,1.0
+stele_138.jpg,price_92,40.89,,"bpWild BEANCAFEultimateAT14.999214.899514.099514,89ultimate9850.29ultimateВЕТОЛУЖЕ НЕ тепололиВывсOTA симвода 270MM",0.0,1.0
+stele_138.jpg,price_95,43.09,,"bpWild BEANCAFEultimateAT14.999214.899514.099514,89ultimate9850.29ultimateВЕТОЛУЖЕ НЕ тепололиВывсOTA симвода 270MM",0.0,1.0
+stele_138.jpg,price_98,50.29,,"bpWild BEANCAFEultimateAT14.999214.899514.099514,89ultimate9850.29ultimateВЕТОЛУЖЕ НЕ тепололиВывсOTA симвода 270MM",0.0,1.0
+stele_138.jpg,price_DT,43.99,,"bpWild BEANCAFEultimateAT14.999214.899514.099514,89ultimate9850.29ultimateВЕТОЛУЖЕ НЕ тепололиВывсOTA симвода 270MM",0.0,1.0
+stele_139.jpg,price_92,41.19,,BelOn95ATZUBERMblOTKPOJIMCd,0.0,1.0
+stele_139.jpg,price_95,44.89,,BelOn95ATZUBERMblOTKPOJIMCd,0.0,1.0
+stele_139.jpg,price_DT,41.69,,BelOn95ATZUBERMblOTKPOJIMCd,0.0,1.0
+stele_140.jpg,price_92,42.4,,24/2/0AT 15.95,0.0,1.0
+stele_140.jpg,price_95,45.4,,24/2/0AT 15.95,0.0,1.0
+stele_140.jpg,price_DT,45.95,,24/2/0AT 15.95,0.0,1.0
